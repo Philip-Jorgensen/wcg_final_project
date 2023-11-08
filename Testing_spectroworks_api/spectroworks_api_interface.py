@@ -11,6 +11,7 @@ from datetime import datetime
 from typing import Dict, List, Tuple
 import re
 from math import sqrt
+import matplotlib.pyplot as plt
 
 # Constants
 API_KEY = "ZWZhMWQ1MTQtOGM4MS00YzI1LWJiY2UtNTg3YWY1MGI5ZmQ0"
@@ -159,9 +160,24 @@ def analyze_test(project: Project, test_number: int, moving_average: bool = Fals
 
             i += 1
         
-        return ri_moving_average
+        return (time[1:-1], ri_moving_average)
 
-    return refractive_index
+    return (time, refractive_index)
+
+def plotting(data: tuple):
+    time = data[0]
+    values = data[1]
+    
+    print(values)
+
+    plt.plot(time, values)
+    plt.grid(True)
+
+    plt.xlim(min(time), max(time))
+    plt.xlabel("Minutes")
+    plt.ylabel("Refractive index")
+
+    plt.show()
     
 
 def main():
@@ -172,12 +188,13 @@ def main():
 
     refractive_index = analyze_test(project, 11, True)
 
-    ri_shift = max(refractive_index) - refractive_index[0]
+    ri_shift = max(refractive_index[1]) - refractive_index[1][0]
 
     print(ri_shift)
+
+    plotting(refractive_index)
 
 
 # Only allow the program to be run directly, not as an import
 if __name__ == '__main__':
     main()
-

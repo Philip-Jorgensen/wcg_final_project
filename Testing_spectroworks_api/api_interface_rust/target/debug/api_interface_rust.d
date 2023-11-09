@@ -1,0 +1,1 @@
+C:\Users\phili\OneDrive\ -\ Syddansk\ Universitet\SDU\7\ Semester\ (E23)\ Thesis\wcg_final_project\Testing_spectroworks_api\api_interface_rust\target\debug\api_interface_rust.exe: C:\Users\phili\OneDrive\ -\ Syddansk\ Universitet\SDU\7\ Semester\ (E23)\ Thesis\wcg_final_project\Testing_spectroworks_api\api_interface_rust\src\main.rs

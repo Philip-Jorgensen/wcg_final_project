@@ -7,8 +7,7 @@ It is tailoring it to our needs.
 # Imports
 import json
 import requests
-from datetime import datetime
-from typing import Dict, List, Tuple
+from typing import Dict
 import re
 from math import sqrt
 import matplotlib.pyplot as plt
@@ -29,7 +28,7 @@ class Connection:
         self.projects = None
     
 
-    def get_project(self, project_name: str = None) -> list:
+    def get_project(self, project_name: str = None):
         """
         Returns a list of projects.
         :return: list of Project objects.
@@ -139,7 +138,7 @@ class Item:
         return sqrt(pmt)
 
 def analyze_test(project: Project, test_number: int, moving_average: bool = False):
-    refractive_index = []    
+    refractive_index = []
     time = []
 
     for i, item in enumerate(project.items):
@@ -186,7 +185,7 @@ def main():
     project = connection.get_project('Vinyl chloride in water')
     project.get_items()
 
-    refractive_index = analyze_test(project, 11, True)
+    refractive_index = analyze_test(project, 13, True)
 
     ri_shift = max(refractive_index[1]) - refractive_index[1][0]
 

@@ -11,6 +11,9 @@ from typing import Dict
 import re
 from math import sqrt
 import matplotlib.pyplot as plt
+import numpy as np
+
+from dataclasses import dataclass
 
 # Constants
 API_KEY = "ZWZhMWQ1MTQtOGM4MS00YzI1LWJiY2UtNTg3YWY1MGI5ZmQ0"
@@ -137,15 +140,33 @@ class Item:
         pmt = 1 + (pmt_water - 1) * c1
         return sqrt(pmt)
 
-def analyze_test(project: Project, test_number: int, moving_average: bool = False):
+@dataclass
+class Data:
+    time: list
+    refractive_index: list
+    ri_shift: float
+    test_number: int
+    moving_average: bool = False
+    outliers_removed: bool = False
+    vc_concentration: float = 0
+
+ri_shift_formula = lambda ri : max(ri) - ri[0]
+
+def analyze_test(project: Project, test_number: int, moving_average: bool = False, remove_outliers: bool = False) -> Data:
     refractive_index = []
     time = []
+
 
     for i, item in enumerate(project.items):
         if item.test_number == test_number and not item.water_reference:
             refractive_index.append((item.results.get('refractive_index', {})).get('value', 'N/A'))
             time.append(item.measurement_time)
+            solvent = item.sample_attributes['Solvent']
+            analyte = item.sample_attributes['Analyte']
 
+    di_volume = float(re.findall(r'\d+\.*\d*ml',solvent)[0][:-2]) # ml
+    vc_volume = float(re.findall(r'\d+\.*\d*ul', analyte)[0][:-2]) # ul
+    
     if moving_average:
         window_size = 3
 
@@ -158,26 +179,69 @@ def analyze_test(project: Project, test_number: int, moving_average: bool = Fals
             ri_moving_average.append(window_average)
 
             i += 1
+
+        result = Data(
+            time = time[1:-1],
+            refractive_index= ri_moving_average,
+            ri_shift=ri_shift_formula(ri_moving_average),
+            moving_average = True,
+            test_number = test_number
+        ) 
+    else:
+        result = Data(time, refractive_index, ri_shift_formula(refractive_index), test_number=test_number)
+
+    if remove_outliers:
+        std = 2*np.std(result.refractive_index)
+        mean = np.mean(result.refractive_index)
+
+        result.outliers_removed = True
+
+        ri_no_outliers = []
+        time_no_outliers = []
+
+        for i, item in enumerate(result.refractive_index):
+            if item < mean + std or item > mean - std:
+                ri_no_outliers.append(item)
+                time_no_outliers.append(result.time[i])
         
-        return (time[1:-1], ri_moving_average)
+        result.refractive_index = ri_no_outliers
 
-    return (time, refractive_index)
+    result.vc_concentration = (float(vc_volume)*2)/float(di_volume)
+    return result
 
-def plotting(data: tuple):
-    time = data[0]
-    values = data[1]
-    
-    print(values)
+def analyze_range(tests_list: list, project: Project, moving_average: bool, remove_outliers: bool) -> list:
+    ri_shift_list = []
+    vc_concentration_list = []
+
+    for i in tests_list:
+        item_data = analyze_test(project, i, moving_average, remove_outliers)
+        ri_shift_list.append(item_data.ri_shift)
+        vc_concentration_list.append(item_data.vc_concentration)
+
+    return (vc_concentration_list, ri_shift_list)
+
+def plotting(data: Data) -> None:
+    time = data.time
+    values = data.refractive_index
 
     plt.plot(time, values)
     plt.grid(True)
 
+    plt.title(f"Refractive index graph, T{data.test_number}{'- Moving average ' if data.moving_average else '' }{'- Outliers removed' if data.outliers_removed else ''}")
     plt.xlim(min(time), max(time))
     plt.xlabel("Minutes")
     plt.ylabel("Refractive index")
 
     plt.show()
     
+def ri_shift_plot(ri_shift_data: tuple):
+    plt.plot(ri_shift_data[0], ri_shift_data[1])
+    plt.grid(True)
+
+    plt.xlabel("VC Concentration (ug/ml)")
+    plt.ylabel("RI Shift")
+
+    plt.show()
 
 def main():
     connection = Connection(API_KEY, f'https://api.spectroworks.com/prod/api/')
@@ -185,13 +249,15 @@ def main():
     project = connection.get_project('Vinyl chloride in water')
     project.get_items()
 
-    refractive_index = analyze_test(project, 13, True)
-
-    ri_shift = max(refractive_index[1]) - refractive_index[1][0]
-
-    print(ri_shift)
-
-    plotting(refractive_index)
+    # refractive_index = analyze_test(
+    #     project, 
+    #     test_number = 13,
+    #     moving_average = True,
+    #     remove_outliers = True
+    #     )
+    
+    ri_shift_data = analyze_range([9, 10], project, True, True)
+    ri_shift_plot(ri_shift_data)
 
 
 # Only allow the program to be run directly, not as an import

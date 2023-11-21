@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="static/home.css">
+{% endblock %}
+
+{% block content %}
+<div id="container">
+    <h1>Vinyl Chloride Concentration in Water Samples</h1>
+    About determining the concentration of vinyl chloride in water samples
+    <button id="getMeasurementBtn">Get Measurement</button>
+    <input type="text" id="outputField" placeholder="Measurement output will appear here" readonly>
+</div>
+
+{% endblock %}

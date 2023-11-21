@@ -1,3 +1,13 @@
+:root {
+    /* Color palette */
+    --accent-light: #4caf50;
+    --accent-mid:  #45a049;
+    --accent-dark: darkgreen;
+
+    --title-text-color: #333;
+    --second-text-color: #162217;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;

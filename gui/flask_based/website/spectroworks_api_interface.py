@@ -11,12 +11,14 @@ from typing import Dict
 import re
 from math import sqrt
 import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
 import numpy as np
 
 from dataclasses import dataclass
 
 # Constants
 API_KEY = "ZWZhMWQ1MTQtOGM4MS00YzI1LWJiY2UtNTg3YWY1MGI5ZmQ0"
+ALL_PROJECTS_KEY = "ODE2NmRhZTctM2IwMC00YzAwLTllYzgtOWIyM2E3NjczYjU4"
 
 # Classes
 class Connection:
@@ -220,19 +222,22 @@ def analyze_range(tests_list: list, project: Project, moving_average: bool, remo
 
     return (vc_concentration_list, ri_shift_list)
 
-def plotting(data: Data) -> None:
+def plotting(data: Data):
     time = data.time
     values = data.refractive_index
 
-    plt.plot(time, values)
-    plt.grid(True)
+    fig = Figure()
+    axis = fig.add_subplot(1, 1, 1)
 
-    plt.title(f"Refractive index graph, T{data.test_number}{'- Moving average ' if data.moving_average else '' }{'- Outliers removed' if data.outliers_removed else ''}")
-    plt.xlim(min(time), max(time))
-    plt.xlabel("Minutes")
-    plt.ylabel("Refractive index")
+    axis.plot(time, values)
+    axis.grid(True)
 
-    plt.show()
+    # plt.title(f"Refractive index graph, T{data.test_number}{'- Moving average ' if data.moving_average else '' }{'- Outliers removed' if data.outliers_removed else ''}")
+    # plt.xlim(min(time), max(time))
+    # plt.xlabel("Minutes")
+    # plt.ylabel("Refractive index")
+
+    return (axis, fig)
     
 def ri_shift_plot(ri_shift_data: tuple):
     plt.plot(ri_shift_data[0], ri_shift_data[1])

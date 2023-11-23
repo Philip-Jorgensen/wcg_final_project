@@ -6,12 +6,17 @@
     <title>{% block title %}{% endblock %}</title>
 
     <link rel="stylesheet" href="static/base.css">
+    <link rel="icon" type="image/png" href="static/favicon.png">
+
+    <script src="static/index.js"></script>
 
     {% block head %}
     {% endblock %}
 </head>
 <body>
-{% block content %}
-{% endblock %}
+<div id="container">
+    {% block content %}
+    {% endblock %}
+</div>
 </body>
 </html>

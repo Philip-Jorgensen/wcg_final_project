@@ -1,17 +1,33 @@
-{% extends "base.html" %} {% block title %}Home{% endblock %}
+{% extends "base.html" %} {% block title %}VC in water{% endblock %}
 
 {% block head %}
 <link rel="stylesheet" href="static/home.css">
 {% endblock %}
 
 {% block content %}
-<div id="container">
-    <h1>Vinyl Chloride Concentration in Water Samples</h1>
-    <div id="description">
-        Determining the concentration of vinyl chloride in water samples
-    </div>
-    <button id="getMeasurementBtn">Get Measurement</button>
-    <input type="text" id="outputField" placeholder="Measurement output will appear here" readonly>
+<h1>Vinyl Chloride Concentration in Water Samples</h1>
+<div id="description">
+    Determining the concentration of vinyl chloride in water samples
 </div>
+<!-- <div class="full-width">
+    <form method="POST">
+        <input type="number" name="test_number" id="testNumber" placeholder="Analyze test number...">
+        <div class="full-width"><button type="submit" onclick="plot_btn()" id="plotGraphBtn">Plot graph</button></div>
+    </form>
+</div> -->
 
+<div class="full-width">
+    <form id="options_form" method="POST">
+        <label for="moving_average_check">Moving average</label>
+        <input type="checkbox" name="moving_average_check" id="moving_average_check" value="average"> <br>
+        <label for="remove_outliers_check">Remove outliers</label>
+        <input type="checkbox" name="remove_outliers_check" id="remove_outliers_check" value="outliers"> <br>
+        <input type="text" placeholder="Analyze test number" id="test_number" name="test_number">
+    <button type="submit" id="plotGraphBtn">Plot graph</button>
+    </form>
+</div>
+<img src="/plot.png" alt="Plot">
+<!-- <div id="plot_image"></div> -->
+
+<!-- <img id="plot_image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Plot" /> -->
 {% endblock %}

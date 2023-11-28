@@ -149,6 +149,7 @@ class Data:
     ri_shift: float
     test_number: int
     moving_average: bool = False
+    moving_average_data: tuple = ()
     outliers_removed: bool = False
     vc_concentration: float = 0
 
@@ -183,10 +184,11 @@ def analyze_test(project: Project, test_number: int, moving_average: bool = Fals
             i += 1
 
         result = Data(
-            time = time[1:-1],
-            refractive_index= ri_moving_average,
+            time = time,
+            refractive_index= refractive_index,
             ri_shift=ri_shift_formula(ri_moving_average),
             moving_average = True,
+            moving_average_data=(time[1:-1], ri_moving_average),
             test_number = test_number
         ) 
     else:
@@ -229,13 +231,16 @@ def plotting(data: Data):
     fig = Figure()
     axis = fig.add_subplot(1, 1, 1)
 
-    axis.plot(time, values)
+    axis.plot(time, values, label=f"Measurement {'- Outliers removed' if data.outliers_removed else ''}")
+    if data.moving_average:
+        axis.plot(data.moving_average_data[0], data.moving_average_data[1], label="Moving average")
     axis.grid(True)
 
-    # plt.title(f"Refractive index graph, T{data.test_number}{'- Moving average ' if data.moving_average else '' }{'- Outliers removed' if data.outliers_removed else ''}")
-    # plt.xlim(min(time), max(time))
-    # plt.xlabel("Minutes")
-    # plt.ylabel("Refractive index")
+    axis.set_title(f"Refractive index graph, T{data.test_number} {'- Moving average ' if data.moving_average else '' }{'- Outliers removed' if data.outliers_removed else ''}")
+    axis.set_xlim(min(time), max(time))
+    axis.set_xlabel("Minutes")
+    axis.set_ylabel("Refractive index")
+    axis.legend()
 
     return (axis, fig)
     

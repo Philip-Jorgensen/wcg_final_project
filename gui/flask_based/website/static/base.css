@@ -1,8 +1,8 @@
 :root {
     /* Color palette */
-    --accent-light: #4caf50;
-    --accent-mid:  #45a049;
-    --accent-dark: darkgreen;
+    --accent-light: #4c84af;
+    --accent-mid:  #4563a0;
+    --accent-dark: rgb(0, 47, 100);
 
     --title-text-color: #333;
     --second-text-color: #162217;

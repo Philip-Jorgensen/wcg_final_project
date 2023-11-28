@@ -18,7 +18,6 @@ def home():
 
         moving_average = True if request.form.get('moving_average_check') != None else False
         remove_outliers = True if request.form.get('remove_outliers_check') != None else False
-        print(moving_average, remove_outliers)
 
         global test_number
         try:
@@ -31,19 +30,31 @@ def home():
 
 test_number = 9 # Default value
 
+@views.route("/result")
+def result():
+
+    return render_template("home.html")
+
+@views.route("/plot_old.png")
+def render_old_plot():
+    try:
+        response = Response(plot_bytes, mimetype='image/png')
+    except NameError:
+        plot_png()
+        return Response(plot_bytes, mimetype='image/png')
+    else:
+        return response
+
 @views.route("/plot.png")
+def render_plot():
+    plot_png()
+    return Response(plot_bytes, mimetype='image/png')
+
 def plot_png():
-    # test_number = 11
-    # if request.method == 'POST':
-    #     test_number = request.form.get("test_number", default=1)
-    # print(moving_average, remove_outliers)
-    
     connection = Connection(API_KEY, f'https://api.spectroworks.com/prod/api/')
 
     project = connection.get_project('Vinyl chloride in water')
     project.get_items()
-
-    # test_number = request.form['test_number']
 
     data = analyze_test(project, test_number=test_number, moving_average=moving_average, remove_outliers=remove_outliers)
 
@@ -51,4 +62,5 @@ def plot_png():
 
     output = io.BytesIO()
     FigureCanvas(fig).print_png(output)
-    return Response(output.getvalue(), mimetype='image/png')
+    global plot_bytes
+    plot_bytes = output.getvalue()

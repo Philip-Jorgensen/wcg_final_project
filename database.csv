@@ -1,0 +1,9 @@
+vc_concentration,ri_shift,uncertainty,source
+1,0.0031,0.0008,roana_report
+0.5,0.0011,0.0004,roana_report
+0.1,0.0004,0.0001,roana_report
+0.05,0.0002,0.0001,roana_report
+8,0.00352,,measurements
+5,0.00277,,measurements
+3,0.00129,,measurements
+16,0.00589,,measurements

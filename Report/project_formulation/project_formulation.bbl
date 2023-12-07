@@ -1,0 +1,49 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{pvc_applications}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ed7e5d95677ba5dc4027562570f8fd57}{%
+           family={Omnexus},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed7e5d95677ba5dc4027562570f8fd57}
+      \strng{fullhash}{ed7e5d95677ba5dc4027562570f8fd57}
+      \strng{bibnamehash}{ed7e5d95677ba5dc4027562570f8fd57}
+      \strng{authorbibnamehash}{ed7e5d95677ba5dc4027562570f8fd57}
+      \strng{authornamehash}{ed7e5d95677ba5dc4027562570f8fd57}
+      \strng{authorfullhash}{ed7e5d95677ba5dc4027562570f8fd57}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Key Areas of Applications of PVC Resin}
+      \verb{urlraw}
+      \verb https://omnexus.specialchem.com/selection-guide/polyvinyl-chloride-pvc-plastic/key-applications
+      \endverb
+      \verb{url}
+      \verb https://omnexus.specialchem.com/selection-guide/polyvinyl-chloride-pvc-plastic/key-applications
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

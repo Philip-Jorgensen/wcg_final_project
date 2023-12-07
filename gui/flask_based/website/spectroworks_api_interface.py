@@ -13,6 +13,8 @@ from math import sqrt
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
 import numpy as np
+import pandas as pd
+import scipy as sc
 
 from dataclasses import dataclass
 
@@ -223,6 +225,30 @@ def analyze_range(tests_list: list, project: Project, moving_average: bool, remo
         vc_concentration_list.append(item_data.vc_concentration)
 
     return (vc_concentration_list, ri_shift_list)
+
+def database_fit():
+    database_file = '../../../../database.csv'
+
+    data = pd.read_csv(database_file)
+
+    # Sorting the data
+    data = data.sort_values(by=['vc_concentration'])
+
+    vc_concentration = data['vc_concentration'].values
+    ri_shift = data['ri_shift'].values
+    uncertainty = data['uncertainty'].fillna(0).values
+
+    # Best fit
+    bestfit_coefficients = np.polyfit(vc_concentration, ri_shift, 2)
+    bestfit_function = np.poly1d(bestfit_coefficients)
+
+    fit_estimate_values = []
+    for i in vc_concentration:
+        fit_estimate_values.append(bestfit_function(i))
+
+    fit_properties = sc.stats.linregress(ri_shift, fit_estimate_values)
+    r_squared = np.power(fit_properties.rvalue,2)
+
 
 def plotting(data: Data):
     time = data.time

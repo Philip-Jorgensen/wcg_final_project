@@ -215,39 +215,37 @@ def analyze_test(project: Project, test_number: int, moving_average: bool = Fals
     result.vc_concentration = (float(vc_volume)*2)/float(di_volume)
     return result
 
-def analyze_range(tests_list: list, project: Project, moving_average: bool, remove_outliers: bool) -> list:
-    ri_shift_list = []
-    vc_concentration_list = []
+## Possibly not needed, just taking the values directly without calculating them first
+# def analyze_range(tests_list: list, project: Project, moving_average: bool, remove_outliers: bool) -> list:
+#     ri_shift_list = []
+#     vc_concentration_list = []
 
-    for i in tests_list:
-        item_data = analyze_test(project, i, moving_average, remove_outliers)
-        ri_shift_list.append(item_data.ri_shift)
-        vc_concentration_list.append(item_data.vc_concentration)
+#     for i in tests_list:
+#         item_data = analyze_test(project, i, moving_average, remove_outliers)
+#         ri_shift_list.append(item_data.ri_shift)
+#         vc_concentration_list.append(item_data.vc_concentration)
 
-    return (vc_concentration_list, ri_shift_list)
+#     return (vc_concentration_list, ri_shift_list)
 
-def database_fit():
+def database_fit(data: Data):
     database_file = '../../../../database.csv'
 
-    data = pd.read_csv(database_file)
+    database = pd.read_csv(database_file)
 
     # Sorting the data
-    data = data.sort_values(by=['vc_concentration'])
+    database = database.sort_values(by=['vc_concentration'])
 
-    vc_concentration = data['vc_concentration'].values
-    ri_shift = data['ri_shift'].values
-    uncertainty = data['uncertainty'].fillna(0).values
+    vc_concentration = database['vc_concentration'].values
+    ri_shift = database['ri_shift'].values
+    uncertainty = database['uncertainty'].fillna(0).values
 
     # Best fit
-    bestfit_coefficients = np.polyfit(vc_concentration, ri_shift, 2)
+    bestfit_coefficients = np.polyfit(ri_shift, vc_concentration, 2)
     bestfit_function = np.poly1d(bestfit_coefficients)
 
-    fit_estimate_values = []
-    for i in vc_concentration:
-        fit_estimate_values.append(bestfit_function(i))
 
-    fit_properties = sc.stats.linregress(ri_shift, fit_estimate_values)
-    r_squared = np.power(fit_properties.rvalue,2)
+    
+
 
 
 def plotting(data: Data):

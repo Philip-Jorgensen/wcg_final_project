@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.5)  5 DEC 2023 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.5)  13 DEC 2023 22:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -472,13 +472,13 @@ Package biblatex Info: ... file 'project_formulation.bbl' found.
 Package biblatex Info: Reference section=0 on input line 23.
 Package biblatex Info: Reference segment=0 on input line 23.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 [1
 
-{C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 (project_formulation.aux)
  ***********
 LaTeX2e <2023-11-01>
@@ -489,13 +489,13 @@ Package logreq Info: Writing requests to 'project_formulation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10268 strings out of 474587
- 194004 string characters out of 5745702
- 1929558 words of memory out of 5000000
- 32378 multiletter control sequences out of 15000+600000
+ 10271 strings out of 474587
+ 194035 string characters out of 5745702
+ 1928558 words of memory out of 5000000
+ 32381 multiletter control sequences out of 15000+600000
  563064 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,6n,81p,814b,1136s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,11n,81p,814b,1136s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -503,9 +503,9 @@ ic/amsfonts/cm/cmr10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/phili/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on project_formulation.pdf (1 page, 67926 bytes).
+Output written on project_formulation.pdf (2 pages, 72389 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

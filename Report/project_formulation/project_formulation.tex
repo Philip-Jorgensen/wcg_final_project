@@ -5,8 +5,13 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{biblatex}
+\usepackage{pgfgantt}
+\usepackage{float}
 
 \addbibresource{bib.bib}
+
+% Simple multiline comment
+\newcommand{\mycomment}[1]{}
 
 % Configuring Fancy hdr
 \pagestyle{fancy}
@@ -61,8 +66,39 @@ The project is divided into 3 main parts:\\
     \item User interface
 \end{itemize}
 
-The different parts are going to overlap, but it is primarily going to be in the order of the first part is focusing on building the database then about finding a way to analyze the data, and lastly building the user interface.
+The different parts are going to overlap, but it is primarily going to be in the order of the first part is focusing on building the database then about finding a way to analyze the data, and lastly building the user interface.\\
+The project is divided up with the intention of spending 8 hours per day, 5 days a week on the project i.e. 40 hours a week.
 
+\subsection*{Gantt chart}
+\begin{figure}[H]
+    \centering
+    \begin{ganttchart}{35}{52}
+    \gantttitle{2023 - Week \#}{18} \\
+    \gantttitlelist{35,...,52}{1}\\
+    \ganttgroup{Database building}{35}{40} \\
+    \ganttgroup{Analyzing data}{41}{44} \\
+    \ganttgroup{User interface}{45}{48} \\
+
+    \ganttgroup{Writing}{49}{52} \\
+    \ganttbar{Background and theory}{49}{49} \\
+    \ganttbar{Database building}{50}{50} \\
+    \ganttbar{Analyzing data}{51}{51} \\
+    \ganttbar{User interface}{52}{52} \\
+
+    \end{ganttchart}
+    \caption{The timetable in a Gantt chart format, divided up in weeks}
+    \label{timetable}
+\end{figure}
+
+\mycomment{
+    What to include in the Gantt chart.
+    Database building
+    Analyzing data
+    User interface
+    Writing
+        - The different sections of the project each gets a week
+
+}
 
 \vspace{15mm}
 \section*{Risk assessment}

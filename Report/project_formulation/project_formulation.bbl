@@ -19,6 +19,81 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{ri_dtu}{article}{}
+      \name{author}{5}{}{%
+        {{hash=19987604ace60ac13ccd35395fb96d3a}{%
+           family={Hermannsson},
+           familyi={H\bibinitperiod},
+           given={Pétur\bibnamedelima Gordon},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d84f1b1264230080160c1430481135f9}{%
+           family={Vannahme},
+           familyi={V\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=780a3dce1f36ec4d44f9b2244aea1a52}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Cameron},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2abd6baee3e486e3a11c0fe06ac72c6e}{%
+           family={Sørensen},
+           familyi={S\bibinitperiod},
+           given={Kristian\bibnamedelima Tølbøl},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=81d0386ef2b418be4d0758c27c2924db}{%
+           family={Kristensen},
+           familyi={K\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{67d4686623a234b6ccfae640af6bc927}
+      \strng{fullhash}{831ab500156d5145a469376750750fbe}
+      \strng{bibnamehash}{67d4686623a234b6ccfae640af6bc927}
+      \strng{authorbibnamehash}{67d4686623a234b6ccfae640af6bc927}
+      \strng{authornamehash}{67d4686623a234b6ccfae640af6bc927}
+      \strng{authorfullhash}{831ab500156d5145a469376750750fbe}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{6}
+      \field{title}{Refractive index dispersion sensing using an array of photonic crystal resonant reflectors}
+      \field{volume}{107}
+      \field{year}{2015}
+    \endentry
+    \entry{vc_who}{report}{}
+      \name{author}{1}{}{%
+        {{hash=85bae99e863473832bb0c4b984713d7a}{%
+           family={Kielhorn},
+           familyi={K\bibinitperiod},
+           given={Dr\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {WHO}%
+      }
+      \strng{namehash}{85bae99e863473832bb0c4b984713d7a}
+      \strng{fullhash}{85bae99e863473832bb0c4b984713d7a}
+      \strng{bibnamehash}{85bae99e863473832bb0c4b984713d7a}
+      \strng{authorbibnamehash}{85bae99e863473832bb0c4b984713d7a}
+      \strng{authornamehash}{85bae99e863473832bb0c4b984713d7a}
+      \strng{authorfullhash}{85bae99e863473832bb0c4b984713d7a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vinyl Chloride in Drinking-water}
+      \field{type}{techreport}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://cdn.who.int/media/docs/default-source/wash-documents/wash-chemicals/vinylchloride.pdf?sfvrsn=8e19c6cd_4
+      \endverb
+      \verb{url}
+      \verb https://cdn.who.int/media/docs/default-source/wash-documents/wash-chemicals/vinylchloride.pdf?sfvrsn=8e19c6cd_4
+      \endverb
+    \endentry
     \entry{pvc_applications}{article}{}
       \name{author}{1}{}{%
         {{hash=ed7e5d95677ba5dc4027562570f8fd57}{%
@@ -41,6 +116,58 @@
       \endverb
       \verb{url}
       \verb https://omnexus.specialchem.com/selection-guide/polyvinyl-chloride-pvc-plastic/key-applications
+      \endverb
+    \endentry
+    \entry{gc_shimadzu}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a575c4ba8404146b86d14440eb8b9c42}{%
+           family={Shimadzu},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a575c4ba8404146b86d14440eb8b9c42}
+      \strng{fullhash}{a575c4ba8404146b86d14440eb8b9c42}
+      \strng{bibnamehash}{a575c4ba8404146b86d14440eb8b9c42}
+      \strng{authorbibnamehash}{a575c4ba8404146b86d14440eb8b9c42}
+      \strng{authornamehash}{a575c4ba8404146b86d14440eb8b9c42}
+      \strng{authorfullhash}{a575c4ba8404146b86d14440eb8b9c42}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Gas Chromatography?}
+      \verb{urlraw}
+      \verb https://www.ssi.shimadzu.com/service-support/faq/gas-chromatography/what-is-gas-chromatography/index.html
+      \endverb
+      \verb{url}
+      \verb https://www.ssi.shimadzu.com/service-support/faq/gas-chromatography/what-is-gas-chromatography/index.html
+      \endverb
+    \endentry
+    \entry{water_analysis_cwt}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fad91d24bebf2e7932b9904b22fd39c1}{%
+           family={testing},
+           familyi={t\bibinitperiod},
+           given={Clean},
+           giveni={C\bibinitperiod},
+           prefix={water},
+           prefixi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{fad91d24bebf2e7932b9904b22fd39c1}
+      \strng{fullhash}{fad91d24bebf2e7932b9904b22fd39c1}
+      \strng{bibnamehash}{fad91d24bebf2e7932b9904b22fd39c1}
+      \strng{authorbibnamehash}{fad91d24bebf2e7932b9904b22fd39c1}
+      \strng{authornamehash}{fad91d24bebf2e7932b9904b22fd39c1}
+      \strng{authorfullhash}{fad91d24bebf2e7932b9904b22fd39c1}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Frequently Asked Questions}
+      \verb{urlraw}
+      \verb https://www.cleanwatertesting.com/resources/water-testing-faqs/
+      \endverb
+      \verb{url}
+      \verb https://www.cleanwatertesting.com/resources/water-testing-faqs/
       \endverb
     \endentry
   \enddatalist

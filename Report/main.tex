@@ -4,6 +4,10 @@
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{biblatex}
+
+% Configuring biblatex
+\addbibresource{project_formulation/bib.bib}
 
 % Configuring Fancy hdr
 \pagestyle{fancy}
@@ -28,6 +32,7 @@
 
 % The different sections to include:
 \section{Abstract}
+Testing reference \cite{gc_shimadzu}
 
 \section{Introduction}
 \subsection{Background}
@@ -42,6 +47,8 @@
 \input{ui.tex}
 
 \section{Conclusion}
+
+\printbibliography
 
 \section{Appendix}
 % Add the code here, and a flowchart version to describe the logic

@@ -1,15 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'main.blg'
-[151] biber-MSWIN64:340> INFO - === 
-[210] Biber.pm:419> INFO - Reading 'main.bcf'
-[378] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
-[398] Biber.pm:4419> INFO - Processing section 0
-[414] Biber.pm:4610> INFO - Looking for bibtex file 'project_formulation/bib.bib' for section 0
-[476] bibtex.pm:1713> INFO - LaTeX decoding ...
-[495] bibtex.pm:1519> INFO - Found BibTeX data source 'project_formulation/bib.bib'
-[586] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[586] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[586] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[586] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[599] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[602] bbl.pm:763> INFO - Output to main.bbl
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[161] biber-MSWIN64:340> INFO - === 
+[209] Biber.pm:419> INFO - Reading 'main.bcf'
+[357] Biber.pm:979> INFO - Found 13 citekeys in bib section 0
+[375] Biber.pm:4419> INFO - Processing section 0
+[389] Biber.pm:4610> INFO - Looking for bibtex file 'project_formulation/bib.bib' for section 0
+[442] bibtex.pm:1713> INFO - LaTeX decoding ...
+[482] bibtex.pm:1519> INFO - Found BibTeX data source 'project_formulation/bib.bib'
+[608] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[608] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[608] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[608] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[626] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[634] bbl.pm:763> INFO - Output to main.bbl
+[634] Biber.pm:131> WARN - online entry 'vc_cancer' (project_formulation/bib.bib): Invalid format '2022-11-3' of date field 'date' - ignoring
+[634] Biber.pm:131> WARN - online entry 'gc_cost_axion' (project_formulation/bib.bib): Invalid format '2022-5-6' of date field 'date' - ignoring
+[634] Biber.pm:133> INFO - WARNINGS: 2

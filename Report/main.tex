@@ -13,7 +13,7 @@
 \setstretch{1.5}
 
 % Configuring biblatex
-\usepackage{biblatex}
+\usepackage[style=ieee]{biblatex}
 \addbibresource{project_formulation/bib.bib}
 
 % Configuring Fancy hdr
@@ -63,6 +63,10 @@ Abstract. write toward the end
 VOC     & Volatile Organic Compound \\
 VC      & Vinyl Chloride \\
 PVC     & Polyvinyl Chloride \\
+GC      & Gas Chromatography \\
+GSC     & Gas-solid Chromatography \\
+GLC     & Gas-liquid Chromatography \\
+EHP     & Environmental Health Perspectives \\
 \end{tabular}
 \newpage
 
@@ -88,7 +92,7 @@ PVC plastics are used in a lot of different areas like construction piping, pack
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{pvc_applications.jpg}
-    \caption{Applications for PVC plastic\cite{pvc_applications_euroeplas}}
+    \caption{Applications for PVC plastic. \cite{pvc_applications_euroeplas}}
     \label{fig:pvc_applications}
 \end{figure}
 
@@ -98,8 +102,30 @@ One of the main dangers with exposure to vinyl chloride is the increased risk of
 In addition according to \textit{"kemibrug.dk"}\footnote{A database for information regarding chemicals}, vinyl chloride can also affect the central nervous system with symptoms like headache, dizziness, nausea and a possibility of loss of conscioiusness, as well as the inhalation the chemical is also easily absorbed through the skin which can lead to similar effects as of those from inhilation.\cite{vc_kemibrug}
 
 
-At the moment the primary way to analyze whether there is vinyl chloride present in a water sample is through gas chromatogrpahy
-test
+At the moment the primary way to analyze whether there is vinyl chloride present in a water sample is through gas chromatography.
+According to an article from F.J Santos and M.T Galceran some of the advantages of gas chromatography are that is has a very high selectivity and resolution, making it easier to detect even small quantities of vinyl chloride in the sample, in addition GC has a good accuracy and precision.\cite{SANTOS2002672}
+
+
+Gas chromatography is a physical process where a mixture of different substances are separated into their different parts.\cite{waters_1978_gc}
+There are two primary types of gas chromatography, gas-solid chromatography (GSC) and gas-liquid chromatography (GLC), in gas-solid chromatography it is about the absorbtion of the sample on the solid and with gas-liquid chromatography it is about the solubility of the sample to the liquid. \cite{ambrose_1963_gc}
+In the case of detecting the vinyl chloride it is GLC that is being used, since the sample to be tested for the concentration of vinyl chloride is usually water.
+According to the "Environmental Health Perspectives (EHP)" some of the areas that there have been shown high levels of VC are "soil, groundwater, aquifiers, and wells near landfill and industrial waste disposal sites"\cite{vc_kielhorn_2000}.
+Gas chromatography works by having a sample that is to be analyzed, that is injected into a moving gas stream.
+It is then being carried down a column by a liquid with a low volatility, the sample is then separated into its different parts because the absorptivities and solubilities of the different parts differ making them arrive at different rates which makes it possible for the detector at the end to get a reading.\cite{ambrose_1963_gc}
+The process is illustrated in figure \ref{fig:glc_illustration}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{glc_illustration.png}
+    \caption{Schematic illustration of a gas chromatography system. \cite{glc_illustration}}
+    \label{fig:glc_illustration}
+\end{figure}
+
+A gas chromatograph is an expensive piece of laboratory equipment\cite{gc_cost_axion}, in addition it can take up to two weeks to get a sample analyzed in a laboratory\cite{water_analysis_cwt}.
+This is why there is a need to be able to get a faster on-site detection of vinyl chloride concentration in water samples.
+This is what the company Water Care Guard\footnote{https://www.watercareguard.com/} is working towards, with their suitcase laboratory.
+Instead of using GC for detecting the vinyl chloride, it is using an enzymatic reaction between the vinyl chloride and an enzyme Cytochromes P450
+
 
 \section{Theory}
 \subsection{What is \textit{Refractive index}?}
@@ -124,6 +150,7 @@ test
 
 \newpage
 
+\renewcommand*{\UrlFont}{\rmfamily}
 \printbibliography
 
 \section{Appendix}

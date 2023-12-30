@@ -218,6 +218,11 @@ INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgf
 INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfcalendar.code.tex
 INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT .\project_formulation.aux
 INPUT .\project_formulation.aux
 INPUT project_formulation.aux
@@ -261,10 +266,10 @@ INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm100
 INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
-INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\phili\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT project_formulation.aux
 INPUT project_formulation.run.xml
 OUTPUT project_formulation.run.xml

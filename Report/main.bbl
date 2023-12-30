@@ -19,28 +19,196 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{gc_shimadzu}{online}{}
+    \entry{pvc_origin}{article}{}
       \name{author}{1}{}{%
-        {{hash=a575c4ba8404146b86d14440eb8b9c42}{%
-           family={Shimadzu},
-           familyi={S\bibinitperiod}}}%
+        {{hash=d5ca9f06f055c95884ef69ac099023c5}{%
+           family={Baumann},
+           familyi={B\bibinitperiod},
+           given={Dr.\bibnamedelimi Eugen},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
       }
-      \strng{namehash}{a575c4ba8404146b86d14440eb8b9c42}
-      \strng{fullhash}{a575c4ba8404146b86d14440eb8b9c42}
-      \strng{bibnamehash}{a575c4ba8404146b86d14440eb8b9c42}
-      \strng{authorbibnamehash}{a575c4ba8404146b86d14440eb8b9c42}
-      \strng{authornamehash}{a575c4ba8404146b86d14440eb8b9c42}
-      \strng{authorfullhash}{a575c4ba8404146b86d14440eb8b9c42}
+      \strng{namehash}{d5ca9f06f055c95884ef69ac099023c5}
+      \strng{fullhash}{d5ca9f06f055c95884ef69ac099023c5}
+      \strng{bibnamehash}{d5ca9f06f055c95884ef69ac099023c5}
+      \strng{authorbibnamehash}{d5ca9f06f055c95884ef69ac099023c5}
+      \strng{authornamehash}{d5ca9f06f055c95884ef69ac099023c5}
+      \strng{authorfullhash}{d5ca9f06f055c95884ef69ac099023c5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ueber einige Vinylverbindungen}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{1872}
+      \field{urldateera}{ce}
+      \field{pages}{308\bibrangedash 322}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://books.google.dk/books?id=HNXyAAAAMAAJ&pg=PA308&redir_esc=y#v=onepage&q&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.dk/books?id=HNXyAAAAMAAJ&pg=PA308&redir_esc=y#v=onepage&q&f=false
+      \endverb
+    \endentry
+    \entry{pvc_applications_euroeplas}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8df88880d5bc387962d079a35a7d9753}{%
+           family={Europlas},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8df88880d5bc387962d079a35a7d9753}
+      \strng{fullhash}{8df88880d5bc387962d079a35a7d9753}
+      \strng{bibnamehash}{8df88880d5bc387962d079a35a7d9753}
+      \strng{authorbibnamehash}{8df88880d5bc387962d079a35a7d9753}
+      \strng{authornamehash}{8df88880d5bc387962d079a35a7d9753}
+      \strng{authorfullhash}{8df88880d5bc387962d079a35a7d9753}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is PVC Plastic? All Information About PVC Plastic}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://europlas.com.vn/en-US/blog-1/what-is-pvc-plastic-all-information-about-pvc-plastic
+      \endverb
+      \verb{url}
+      \verb https://europlas.com.vn/en-US/blog-1/what-is-pvc-plastic-all-information-about-pvc-plastic
+      \endverb
+    \endentry
+    \entry{vc_cancer}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dbd65b8044d215f27deff05ab3a7ddc8}{%
+           family={Institue},
+           familyi={I\bibinitperiod},
+           given={National\bibnamedelima Cancer},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbd65b8044d215f27deff05ab3a7ddc8}
+      \strng{fullhash}{dbd65b8044d215f27deff05ab3a7ddc8}
+      \strng{bibnamehash}{dbd65b8044d215f27deff05ab3a7ddc8}
+      \strng{authorbibnamehash}{dbd65b8044d215f27deff05ab3a7ddc8}
+      \strng{authornamehash}{dbd65b8044d215f27deff05ab3a7ddc8}
+      \strng{authorfullhash}{dbd65b8044d215f27deff05ab3a7ddc8}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vinyl Chloride}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{vc_kemibrug}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b433c14c899c19699eb0576b81a76624}{%
+           family={Kemibrug},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b433c14c899c19699eb0576b81a76624}
+      \strng{fullhash}{b433c14c899c19699eb0576b81a76624}
+      \strng{bibnamehash}{b433c14c899c19699eb0576b81a76624}
+      \strng{authorbibnamehash}{b433c14c899c19699eb0576b81a76624}
+      \strng{authornamehash}{b433c14c899c19699eb0576b81a76624}
+      \strng{authorfullhash}{b433c14c899c19699eb0576b81a76624}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{75-01-4 Vinyl chloride (stabilized)}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kemibrug.dk
+      \endverb
+      \verb{url}
+      \verb https://kemibrug.dk
+      \endverb
+    \endentry
+    \entry{plastic_history}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6411b98ecee3940e29464919a817080c}{%
+           family={Museum},
+           familyi={M\bibinitperiod},
+           given={Science},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6411b98ecee3940e29464919a817080c}
+      \strng{fullhash}{6411b98ecee3940e29464919a817080c}
+      \strng{bibnamehash}{6411b98ecee3940e29464919a817080c}
+      \strng{authorbibnamehash}{6411b98ecee3940e29464919a817080c}
+      \strng{authornamehash}{6411b98ecee3940e29464919a817080c}
+      \strng{authorfullhash}{6411b98ecee3940e29464919a817080c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Age of Plastic: From Parkesine to pollution}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sciencemuseum.org.uk/objects-and-stories/chemistry/age-plastic-parkesine-pollution
+      \endverb
+      \verb{url}
+      \verb https://www.sciencemuseum.org.uk/objects-and-stories/chemistry/age-plastic-parkesine-pollution
+      \endverb
+    \endentry
+    \entry{history_pvc}{article}{}
+      \name{author}{2}{}{%
+        {{hash=992d0d090e40a1cf090f8f80defa87c7}{%
+           family={Semon},
+           familyi={S\bibinitperiod},
+           given={Waldo\bibnamedelima L.},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=93bd4823c7d9b7569cf80267fc170f05}{%
+           family={Stahl},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi Allan},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{3253401ca907efec5ddfb7ca1bea80a8}
+      \strng{fullhash}{3253401ca907efec5ddfb7ca1bea80a8}
+      \strng{bibnamehash}{3253401ca907efec5ddfb7ca1bea80a8}
+      \strng{authorbibnamehash}{3253401ca907efec5ddfb7ca1bea80a8}
+      \strng{authornamehash}{3253401ca907efec5ddfb7ca1bea80a8}
+      \strng{authorfullhash}{3253401ca907efec5ddfb7ca1bea80a8}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{What is Gas Chromatography?}
+      \field{journaltitle}{Journal of Macromolecular Science: Part A - Chemistry}
+      \field{number}{6}
+      \field{title}{History of Vinyl Chloride Polymers}
+      \field{volume}{15}
+      \field{year}{1981}
+      \field{pages}{1263\bibrangedash 1278}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/00222338108066464
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/00222338108066464
+      \endverb
       \verb{urlraw}
-      \verb https://www.ssi.shimadzu.com/service-support/faq/gas-chromatography/what-is-gas-chromatography/index.html
+      \verb https://doi.org/10.1080/00222338108066464
       \endverb
       \verb{url}
-      \verb https://www.ssi.shimadzu.com/service-support/faq/gas-chromatography/what-is-gas-chromatography/index.html
+      \verb https://doi.org/10.1080/00222338108066464
       \endverb
     \endentry
   \enddatalist

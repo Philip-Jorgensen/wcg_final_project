@@ -2361,7 +2361,13 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">project_formulation/bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">gc_shimadzu</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">plastic_history</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">pvc_origin</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">history_pvc</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">pvc_applications_euroeplas</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">vc_cancer</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">vc_cancer</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">vc_kemibrug</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

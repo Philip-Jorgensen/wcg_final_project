@@ -7,6 +7,7 @@
 \usepackage{biblatex}
 \usepackage{pgfgantt}
 \usepackage{float}
+\usepackage[table, xcdraw]{xcolor}
 
 \addbibresource{bib.bib}
 
@@ -35,7 +36,7 @@ PVC plastic is used as pipes for plumbing, bottles, and more\cite{pvc_applicatio
 Vinyl chloride is a highly volatile compound which makes it both hard to detect, and making it more dangerous.
 This has created a need for a fast and simple solution for detecting the concentration of vinyl chloride in water samples.
 
-This has led the company Water Care Guard to develop an on-site lab kit that fits in a suitcase, which is able to test a water sample for the concentration of vinyl chloride amongst other substances.
+This has led the company Water Care Guard \textit{(WCG)} to develop an on-site lab kit that fits in a suitcase, which is able to test a water sample for the concentration of vinyl chloride amongst other substances.
 
 This project is done in collaboration with Roana from SDU Nano Syd and Water Care Guard.
 
@@ -46,7 +47,7 @@ As it stands at the moment, when you want to detect vinyl chloride in water samp
 Gas chromatographic analysis is an analysis method in which the sample is being heated to the point of each component in the sample is being vaporized, where it then enters a column where the different components are being separated, such that it can be detected.\cite{gc_shimadzu}
 The process of sending a water sample to a laboratory and getting the measurements made, is time-consuming and expensive.
 It can take up to two weeks to get a water sample analyzed in a laboratory.\cite{water_analysis_cwt}
-The solution with Water Care Guard aims to reduce this time, by creating an onsite \textit{laboratory kit}, where you can test the water sample.
+The solution with Water Care Guard, aims to reduce this time, by creating an onsite \textit{laboratory kit}, where you can test the water sample.
 It is using the fact that the refractive index of the solution with added enzyme is dependent on the concentration of vinyl chloride in the solution.
 The refractive index can be determined using a spectrophotometer and a cuvette with a photonic crystal applied to one side.\cite{ri_dtu}\\
 
@@ -71,13 +72,28 @@ The project is divided up with the intention of spending 8 hours per day, 5 days
 
 \subsection*{Gantt chart}
 \begin{figure}[H]
-    \centering
-    \begin{ganttchart}{35}{52}
+\centering
+\begin{tikzpicture}
+\begin{pgfinterruptboundingbox}
+    \begin{ganttchart}[
+        hgrid,
+        vgrid,
+        canvas/.append style={alias=frame}
+    ]{35}{52}
     \gantttitle{2023 - Week \#}{18} \\
     \gantttitlelist{35,...,52}{1}\\
     \ganttgroup{Database building}{35}{40} \\
-    \ganttgroup{Analyzing data}{41}{44} \\
+    \ganttbar{Using the WCG suitcase}{35}{40} \\
+    \ganttbar{Using the Shimadzu UV-1900}{40}{48} \\
+
+    \ganttgroup{Analyzing data}{41}{48} \\
+    \ganttbar{Filter and process data}{41}{42} \\
+    \ganttbar{Consolidating all data}{42}{43} \\
+    \ganttbar{Create best fit formula}{44}{48} \\
+
     \ganttgroup{User interface}{45}{48} \\
+    \ganttbar{Creating basic website}{45}{45} \\
+    \ganttbar{Adding database to the website}{46}{48} \\
 
     \ganttgroup{Writing}{49}{52} \\
     \ganttbar{Background and theory}{49}{49} \\
@@ -86,8 +102,11 @@ The project is divided up with the intention of spending 8 hours per day, 5 days
     \ganttbar{User interface}{52}{52} \\
 
     \end{ganttchart}
-    \caption{The timetable in a Gantt chart format, divided up in weeks}
-    \label{timetable}
+\end{pgfinterruptboundingbox}
+\useasboundingbox (frame.south west) rectangle (frame.north east);
+\end{tikzpicture}
+\caption{The timetable in a Gantt chart format, divided up in weeks}
+\label{timetable}
 \end{figure}
 
 \mycomment{
@@ -102,6 +121,22 @@ The project is divided up with the intention of spending 8 hours per day, 5 days
 
 \vspace{15mm}
 \section*{Risk assessment}
+
+The primary risk associated with the project is regards to dealing with the chemicals in making the measurements.
+
+\begin{table}[H]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|}
+\hline
+\rowcolor[HTML]{C1DBFF} 
+\textbf{Issue}                                                                                                         & \textbf{Who  is involved}                                                      & \textbf{Impact/Probability} & \textbf{Mitigative actions}                                                                              \\ \hline
+\rowcolor[HTML]{FFCCC9} 
+\begin{tabular}[c]{@{}l@{}}High volatility and\\ toxicity of Vinyl Chloride.\\ Working with the chemicals\end{tabular} & \begin{tabular}[c]{@{}l@{}}Operator performing\\ the measurements\end{tabular} & High/High                   & \begin{tabular}[c]{@{}l@{}}Using:\\ - labcoat\\ - safety glasses\\ - working in a fume hood\end{tabular} \\ \hline
+\end{tabular}%
+}
+\caption{The risk assessment table}
+\label{risk-table}
+\end{table}
 
 \vspace{15mm}
 \printbibliography

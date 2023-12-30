@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber project_formulation"] 0 "project_formulation.bcf" "project_formulation.bbl" "project_formulation" 1703601489 -1
+["biber project_formulation"] 1703694156 "project_formulation.bcf" "project_formulation.bbl" "project_formulation" 1703695549 0
   "./bib.bib" 1702928264 1410 c49583a8dcc60da0c6d42c4ca33351b5 ""
-  "project_formulation.bcf" 1703601489 108026 776df2d3d2e31b821e8a00c680d675de "pdflatex"
+  "project_formulation.bcf" 1703695549 108026 776df2d3d2e31b821e8a00c680d675de "pdflatex"
   (generated)
   "project_formulation.bbl"
   "project_formulation.blg"
   (rewritten before read)
-["pdflatex"] 1703601487 "c:/Users/phili/OneDrive - Syddansk Universitet/SDU/7 Semester (E23) Thesis/wcg_final_project/Report/project_formulation/project_formulation.tex" "project_formulation.pdf" "project_formulation" 1703601489 0
-  "C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1703591234 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1703695547 "c:/Users/phili/OneDrive - Syddansk Universitet/SDU/7 Semester (E23) Thesis/wcg_final_project/Report/project_formulation/project_formulation.tex" "project_formulation.pdf" "project_formulation" 1703695549 0
+  "C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1703629884 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/phili/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1701777177 11548 883281286d7970c773ae529864d6ad36 ""
   "C:/Users/phili/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1701777104 24213231 1aec670b6300f967a637593be9bafc17 ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993058908 1436 c7f957a372ef2fbe93c0982f96625e12 ""
@@ -125,6 +125,7 @@
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def" 1679055682 32455 8d3e554836db11aab80a8e11be62e1b1 ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/numeric.cbx" 1679055682 4629 cda468e8a0b1cfa0f61872e171037a4b ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/english.lbx" 1679055682 39965 48ce9ce3350aba9457f1020b1deba5cf ""
+  "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortbl.sty" 1660205607 12441 3b2a708337608012a865c7d9b7f05d28 ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1622999586 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601894156 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty" 1668504483 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
@@ -132,6 +133,7 @@
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465890692 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465890692 1224 978390e9c2234eab29404bc21b268d1e ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/pdftex.def" 1663915090 19448 1e988b341dda20961a6b931bcde55519 ""
+  "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/graphics/color.sty" 1665063979 7233 e46ce9241d2b2ca2a78155475fdd557a ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty" 1665063979 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty" 1665063979 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665063979 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
@@ -156,14 +158,15 @@
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty" 1673775190 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673775190 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/pgfgantt/pgfgantt.sty" 1515768374 49409 88c861f46c2f86a25c7b7d0c7b0072ed ""
+  "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/phili/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "c:/Users/phili/OneDrive - Syddansk Universitet/SDU/7 Semester" 1702917605 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "c:/Users/phili/OneDrive - Syddansk Universitet/SDU/7 Semester (E23) Thesis/wcg_final_project/Report/project_formulation/project_formulation.tex" 1703601484 5206 945ac1ff8f880b36e00581977b79474f ""
-  "project_formulation.aux" 1703601489 1044 2a767ff1dc4283c8d2580c4f6fa5c909 "pdflatex"
-  "project_formulation.bbl" 1703601272 7229 28aa06031e7f1182356cc59ffe41588e "biber project_formulation"
-  "project_formulation.run.xml" 1703601489 2403 1c35df8bd0130408f20937d28f251d98 "pdflatex"
-  "project_formulation.tex" 1703601484 5206 945ac1ff8f880b36e00581977b79474f ""
+  "c:/Users/phili/OneDrive - Syddansk Universitet/SDU/7 Semester (E23) Thesis/wcg_final_project/Report/project_formulation/project_formulation.tex" 1703695546 6909 e0446b49493815440973a9f0608a173d ""
+  "project_formulation.aux" 1703695549 1207 79da19e158471dd6fd5842b8b0e4ca1c "pdflatex"
+  "project_formulation.bbl" 1703694161 7229 28aa06031e7f1182356cc59ffe41588e "biber project_formulation"
+  "project_formulation.run.xml" 1703695549 2403 1c35df8bd0130408f20937d28f251d98 "pdflatex"
+  "project_formulation.tex" 1703695546 6909 e0446b49493815440973a9f0608a173d ""
   (generated)
   "project_formulation.aux"
   "project_formulation.bcf"

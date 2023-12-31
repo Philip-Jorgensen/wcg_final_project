@@ -5,6 +5,9 @@
 \usepackage{pdfpages}
 \usepackage{tikz}
 
+\usepackage{caption}
+\usepackage{subcaption}
+
 \usepackage{float}
 \usepackage{graphicx}
 \graphicspath{ {./images/}}
@@ -124,17 +127,65 @@ The process is illustrated in figure \ref{fig:glc_illustration}.
 A gas chromatograph is an expensive piece of laboratory equipment\cite{gc_cost_axion}, in addition it can take up to two weeks to get a sample analyzed in a laboratory\cite{water_analysis_cwt}.
 This is why there is a need to be able to get a faster on-site detection of vinyl chloride concentration in water samples.
 This is what the company Water Care Guard\footnote{https://www.watercareguard.com/} is working towards, with their suitcase laboratory.
-Instead of using GC for detecting the vinyl chloride, it is using an enzymatic reaction between the vinyl chloride and an enzyme Cytochromes P450
+Instead of using GC for detecting the vinyl chloride, it is using an enzymatic reaction between the vinyl chloride and an enzyme (Cytochromes P450), this enzymatic reaction changes the refractive index of the solution over time where the shift in the refractive index from the starting point is related to the concentration of the vinyl chloride in the solution.\cite{roana_vc_ri}\cite{Ghanayem2007-nb}.
 
-
+\newpage
 \section{Theory}
+This section will be explaining the relevant concepts, for the method that is used for detecting vinyl chloride in the Water Care Guard suitcase.
+
 \subsection{What is \textit{Refractive index}?}
+The definition of refractive index from The Britannica Encyclopaedia is:
+\begin{center}
+"measure of the bending of a ray of light when passing\\from one medium into another"\cite{ri_britannica}
+\end{center}
+
+The refractive index is defined as the the sine of the angle of incidence to the sine of the angle of refraction.\cite{ri_britannica}
+Equation \ref{eq:ri} shows how the refractive index is calculated as either the ratio of the sine of the angles or as the ratio of the speed of light in a vacuum ($c$) over the speed of light in the medium ($v$).\cite{ri_mettler_toledo}
+The angles, $i$ and $r$ are shown in figure \ref{fig:ri}.
+\begin{equation}\label{eq:ri}
+    n = \frac{\sin{i}}{\sin{r}} = \frac{c}{v}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{refractive_index.png}
+    \caption{An illustration of refractive index\cite{ri_britannica}}
+    \label{fig:ri}
+\end{figure}
+
+
 \subsection{The photonic cystals, a tool for measuring the refractive index}
 
 \newpage
 \section{Building a database}
 \subsection{Measuring vinyl chloride in a sample}
 \subsubsection{General methodology}
+During the measurement gathering process, there was a procedure that was followed for all the measurements, it was adapted slightly depending on what instrument the measurement was done on.
+Firstly the instrument was turned, and proceeding with the steps only when the instrument had heated up.
+With the Water Care Guard suitcase or with the Ocean Optics UV-650 UV-VIS\textsuperscript{TM}, the heat up wait was a fixed 15 minute wait, because those instruments did not have a heating status indicator telling when it was finished heating up.
+On the other hand with the Shimadzu UV-1900\textsuperscript{TM}, there is a light on the front indicating the status, if it is yellow it is still heating and green when it is ready, this is indicated in figure \ref{fig:shimadzu_status}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{shimadzu_heating.jpg}
+        \caption{Shimadzu UV-1900 warming up indicator}
+        \label{fig:shimadzu_heating}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+       \centering 
+       \includegraphics[width=\textwidth]{shimadzu_ready.jpg}
+       \caption{Shimadzu UV-1900 ready and done warming up}
+       \label{fig:shimadzu_ready}
+    \end{subfigure}
+    \caption{Shimadzu UV-1900 status indicator}
+    \label{fig:shimadzu_status}
+\end{figure}
+
+After the instrument has heated up, a water reference measurement is then completed in the Spectroworks\textsuperscript{TM} software by Copenhagen Nanosystems
+
 \subsubsection{Measuring using the Water Care Guard suitcase}
 \subsubsection{Measuring using the Shimadzu UV-1900 spectrophotometer}
 \subsection{Problems}

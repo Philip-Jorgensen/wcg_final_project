@@ -2365,21 +2365,30 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">project_formulation/bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="3" intorder="1">plastic_history</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">pvc_origin</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">history_pvc</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">pvc_applications_euroeplas</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">vc_cancer</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">vc_cancer</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">vc_kemibrug</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">SANTOS2002672</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">waters_1978_gc</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">ambrose_1963_gc</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">vc_kielhorn_2000</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">plastic_history</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">pvc_origin</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">history_pvc</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">pvc_applications_euroeplas</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">pvc_applications_euroeplas</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">vc_cancer</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">vc_cancer</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">vc_kemibrug</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">SANTOS2002672</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">waters_1978_gc</bcf:citekey>
     <bcf:citekey order="14" intorder="1">ambrose_1963_gc</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">glc_illustration</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">gc_cost_axion</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">water_analysis_cwt</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">vc_kielhorn_2000</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">ambrose_1963_gc</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">glc_illustration</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">glc_illustration</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">gc_cost_axion</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">water_analysis_cwt</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">roana_vc_ri</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Ghanayem2007-nb</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">ri_britannica</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">ri_britannica</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">ri_mettler_toledo</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">ri_britannica</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">ri_britannica</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

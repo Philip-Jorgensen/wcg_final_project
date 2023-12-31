@@ -33,8 +33,8 @@
       \strng{authorbibnamehash}{6411b98ecee3940e29464919a817080c}
       \strng{authornamehash}{6411b98ecee3940e29464919a817080c}
       \strng{authorfullhash}{6411b98ecee3940e29464919a817080c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Age of Plastic: From Parkesine to pollution}
@@ -64,8 +64,8 @@
       \strng{authorbibnamehash}{acfc4479ff0ef4e71b942f2c049869c7}
       \strng{authornamehash}{acfc4479ff0ef4e71b942f2c049869c7}
       \strng{authorfullhash}{acfc4479ff0ef4e71b942f2c049869c7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ueber einige Vinylverbindungen}
@@ -105,8 +105,8 @@
       \strng{authorbibnamehash}{3253401ca907efec5ddfb7ca1bea80a8}
       \strng{authornamehash}{3253401ca907efec5ddfb7ca1bea80a8}
       \strng{authorfullhash}{3253401ca907efec5ddfb7ca1bea80a8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Macromolecular Science: Part A - Chemistry}
@@ -141,8 +141,8 @@
       \strng{authorbibnamehash}{8df88880d5bc387962d079a35a7d9753}
       \strng{authornamehash}{8df88880d5bc387962d079a35a7d9753}
       \strng{authorfullhash}{8df88880d5bc387962d079a35a7d9753}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is PVC Plastic? All Information About PVC Plastic}
@@ -171,8 +171,8 @@
       \strng{authorbibnamehash}{dbd65b8044d215f27deff05ab3a7ddc8}
       \strng{authornamehash}{dbd65b8044d215f27deff05ab3a7ddc8}
       \strng{authorfullhash}{dbd65b8044d215f27deff05ab3a7ddc8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Vinyl Chloride}
@@ -200,8 +200,8 @@
       \strng{authorbibnamehash}{b433c14c899c19699eb0576b81a76624}
       \strng{authornamehash}{b433c14c899c19699eb0576b81a76624}
       \strng{authorfullhash}{b433c14c899c19699eb0576b81a76624}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{75-01-4 Vinyl chloride (stabilized)}
@@ -473,8 +473,8 @@
       \strng{authorbibnamehash}{fad91d24bebf2e7932b9904b22fd39c1}
       \strng{authornamehash}{fad91d24bebf2e7932b9904b22fd39c1}
       \strng{authorfullhash}{fad91d24bebf2e7932b9904b22fd39c1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Frequently Asked Questions}
@@ -483,6 +483,166 @@
       \endverb
       \verb{url}
       \verb https://www.cleanwatertesting.com/resources/water-testing-faqs/
+      \endverb
+    \endentry
+    \entry{roana_vc_ri}{article}{}
+      \name{author}{7}{}{%
+        {{hash=804ffd0d79f760fa0ab9d0f06e2a1188}{%
+           family={Oliveira\bibnamedelima Hansen},
+           familyi={O\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Roana},
+           giveni={R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=fa41a14bd7c17218422445f2a975af1d}{%
+           family={Archarya},
+           familyi={A\bibinitperiod},
+           given={Sabita},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f987901a1243fe5991997eb875460b51}{%
+           family={Ioan-Dudas},
+           familyi={I\bibinithyphendelim D\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=94bfb67440d8c1beb1fcf00a15e592f7}{%
+           family={Khatri},
+           familyi={K\bibinitperiod},
+           given={Sangita},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1fb8d29c6f6d867fa3cd41d632bd17ba}{%
+           family={De},
+           familyi={D\bibinitperiod},
+           given={Arpita},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ae8120cc049ab8fbe746d5fe3379aed3}{%
+           family={Højlund-Nielsen},
+           familyi={H\bibinithyphendelim N\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e709dab6df732606ffa31c7bb7243bbc}{%
+           family={Fiutowski},
+           familyi={F\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1c0d136a964a84935e6584ad650f471}
+      \strng{fullhash}{adbaa1268d379a6b7905a1597c6c4f52}
+      \strng{bibnamehash}{e1c0d136a964a84935e6584ad650f471}
+      \strng{authorbibnamehash}{e1c0d136a964a84935e6584ad650f471}
+      \strng{authornamehash}{e1c0d136a964a84935e6584ad650f471}
+      \strng{authorfullhash}{adbaa1268d379a6b7905a1597c6c4f52}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chemical aquatic pollution monitoring with portable agile methods: a demonstration of vinyl chloride detection in environmental waters}
+      \field{year}{2023}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Ghanayem2007-nb}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a62e99bac0c7e2105e2090c9dcf85b07}{%
+           family={Ghanayem},
+           familyi={G\bibinitperiod},
+           given={Burhan\bibnamedelima I},
+           giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=6a4257881ac6426b769986ace6e444c1}{%
+           family={Hoffler},
+           familyi={H\bibinitperiod},
+           given={Undi},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Netherlands}%
+      }
+      \strng{namehash}{d998762b74f6e77306b57074ed87855d}
+      \strng{fullhash}{d998762b74f6e77306b57074ed87855d}
+      \strng{bibnamehash}{d998762b74f6e77306b57074ed87855d}
+      \strng{authorbibnamehash}{d998762b74f6e77306b57074ed87855d}
+      \strng{authornamehash}{d998762b74f6e77306b57074ed87855d}
+      \strng{authorfullhash}{d998762b74f6e77306b57074ed87855d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cytochromes P450 (CYPs) comprise a number of enzyme subfamilies responsible for the oxidative metabolism of a wide range of therapeutic agents, environmental toxicants, mutagens, and carcinogens. In particular, cytochrome P450 2E1 (CYP2E1) is implicated in the oxidative bioactivation of a variety of small hydrophobic chemicals including a number of epoxide-forming drugs and environmentally important toxicants including urethane, acrylamide, acrylonitrile, benzene, vinyl chloride, styrene, 1-bromopropane, trichloroethylene, dichloroethylene, acetaminophen, and butadiene. Until recently, chemical modulators (inducers and inhibitors) were used in order to characterize the enzymatic basis of xenobiotic metabolism and the relationships between CYP-mediated bioactivation and chemical-induced toxicity/carcinogenicity. With the advent of genetically engineered knockout mice, the ability to evaluate the roles of specific CYPs in the metabolism of xenobiotics has become more attainable. The main focus of the current review is to present studies that characterized the enzymatic, metabolic, and molecular mechanisms of toxicity, genotoxicity, and carcinogenicity of various xenobiotics using Cyp2e1-/- mice. Data presented in this review demonstrated that the most comprehensive studies using Cyp2e1-/- mice, encompassing the entire paradigm of metabolism to toxicity, genotoxicity, and carcinogenicity were possible when a substrate was primarily metabolized via CYP2E1 (e.g. urethane and acrylamide). In contrast, when multiple CYP enzymes were prevalent in the oxidation of a particular substrate (e.g.: trichloroethylene, methacrylonitrile, crotononitrile), investigating the relationships between oxidative metabolism and biological activity became more complicated and required the use of chemical modulators. In conclusion, the current review showed that Cyp2e1-/- mice are a valuable animal model for the investigation of the metabolic and molecular basis of toxicity, genotoxicity, and carcinogenicity of xenobiotics.}
+      \field{journaltitle}{Curr Drug Metab}
+      \field{month}{10}
+      \field{number}{7}
+      \field{title}{Investigation of xenobiotics metabolism, genotoxicity, and carcinogenicity using Cyp2e1(-/-) mice}
+      \field{volume}{8}
+      \field{year}{2007}
+      \field{pages}{728\bibrangedash 749}
+      \range{pages}{22}
+    \endentry
+    \entry{ri_britannica}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e04e1aca803a326b68cc1e704e8f4e29}{%
+           family={Encyclopaedia\bibnamedelima Britanncica},
+           familyi={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={The\bibnamedelima Editors},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{e04e1aca803a326b68cc1e704e8f4e29}
+      \strng{fullhash}{e04e1aca803a326b68cc1e704e8f4e29}
+      \strng{bibnamehash}{e04e1aca803a326b68cc1e704e8f4e29}
+      \strng{authorbibnamehash}{e04e1aca803a326b68cc1e704e8f4e29}
+      \strng{authornamehash}{e04e1aca803a326b68cc1e704e8f4e29}
+      \strng{authorfullhash}{e04e1aca803a326b68cc1e704e8f4e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{journaltitle}{Encyclopaedia Britannica}
+      \field{month}{6}
+      \field{title}{refractive index}
+      \field{urlday}{31}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.britannica.com/science/refractive-index
+      \endverb
+      \verb{url}
+      \verb https://www.britannica.com/science/refractive-index
+      \endverb
+    \endentry
+    \entry{ri_mettler_toledo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=81d74fdfb3d6ed2c6b7266b601a3dd5a}{%
+           family={Toledo},
+           familyi={T\bibinitperiod},
+           given={Mettler},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{fullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{bibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authorbibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authornamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authorfullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Refractive Index: All You Need to Know}
+      \field{urlday}{31}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mt.com/dk/da/home/applications/Application_Browse_Laboratory_Analytics/Refractive_index/definition_and_measurement.html
+      \endverb
+      \verb{url}
+      \verb https://www.mt.com/dk/da/home/applications/Application_Browse_Laboratory_Analytics/Refractive_index/definition_and_measurement.html
       \endverb
     \endentry
   \enddatalist

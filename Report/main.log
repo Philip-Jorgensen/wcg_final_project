@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.5)  30 DEC 2023 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.5)  31 DEC 2023 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,9 +333,31 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count298
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+))) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen265
+\captionmargin=\dimen266
+\caption@leftmargin=\dimen267
+\caption@rightmargin=\dimen268
+\caption@width=\dimen269
+\caption@indent=\dimen270
+\caption@parindent=\dimen271
+\caption@hangindent=\dimen272
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count299
+\c@continuedfloat=\count300
+) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count301
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count302
+) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count299
+\c@float@type=\count303
 \float@exts=\toks38
 \float@box=\box66
 \@float@everytoks=\toks39
@@ -358,63 +380,63 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count300
+\etb@tempcnta=\count304
 ) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count301
+\lrq@indent=\count305
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count302
-\c@listtotal=\count303
-\c@listcount=\count304
-\c@liststart=\count305
-\c@liststop=\count306
-\c@citecount=\count307
-\c@citetotal=\count308
-\c@multicitecount=\count309
-\c@multicitetotal=\count310
-\c@instcount=\count311
-\c@maxnames=\count312
-\c@minnames=\count313
-\c@maxitems=\count314
-\c@minitems=\count315
-\c@citecounter=\count316
-\c@maxcitecounter=\count317
-\c@savedcitecounter=\count318
-\c@uniquelist=\count319
-\c@uniquename=\count320
-\c@refsection=\count321
-\c@refsegment=\count322
-\c@maxextratitle=\count323
-\c@maxextratitleyear=\count324
-\c@maxextraname=\count325
-\c@maxextradate=\count326
-\c@maxextraalpha=\count327
-\c@abbrvpenalty=\count328
-\c@highnamepenalty=\count329
-\c@lownamepenalty=\count330
-\c@maxparens=\count331
-\c@parenlevel=\count332
-\blx@tempcnta=\count333
-\blx@tempcntb=\count334
-\blx@tempcntc=\count335
-\c@blx@maxsection=\count336
-\blx@maxsegment@0=\count337
-\blx@notetype=\count338
-\blx@parenlevel@text=\count339
-\blx@parenlevel@foot=\count340
-\blx@sectionciteorder@0=\count341
-\blx@sectionciteorderinternal@0=\count342
-\blx@entrysetcounter=\count343
-\blx@biblioinstance=\count344
+\c@tabx@nest=\count306
+\c@listtotal=\count307
+\c@listcount=\count308
+\c@liststart=\count309
+\c@liststop=\count310
+\c@citecount=\count311
+\c@citetotal=\count312
+\c@multicitecount=\count313
+\c@multicitetotal=\count314
+\c@instcount=\count315
+\c@maxnames=\count316
+\c@minnames=\count317
+\c@maxitems=\count318
+\c@minitems=\count319
+\c@citecounter=\count320
+\c@maxcitecounter=\count321
+\c@savedcitecounter=\count322
+\c@uniquelist=\count323
+\c@uniquename=\count324
+\c@refsection=\count325
+\c@refsegment=\count326
+\c@maxextratitle=\count327
+\c@maxextratitleyear=\count328
+\c@maxextraname=\count329
+\c@maxextradate=\count330
+\c@maxextraalpha=\count331
+\c@abbrvpenalty=\count332
+\c@highnamepenalty=\count333
+\c@lownamepenalty=\count334
+\c@maxparens=\count335
+\c@parenlevel=\count336
+\blx@tempcnta=\count337
+\blx@tempcntb=\count338
+\blx@tempcntc=\count339
+\c@blx@maxsection=\count340
+\blx@maxsegment@0=\count341
+\blx@notetype=\count342
+\blx@parenlevel@text=\count343
+\blx@parenlevel@foot=\count344
+\blx@sectionciteorder@0=\count345
+\blx@sectionciteorderinternal@0=\count346
+\blx@entrysetcounter=\count347
+\blx@biblioinstance=\count348
 \labelnumberwidth=\skip56
 \labelalphawidth=\skip57
 \biblabelsep=\skip58
@@ -426,9 +448,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count345
-\c@maxcomprange=\count346
-\c@mincompwidth=\count347
+\c@mincomprange=\count349
+\c@maxcomprange=\count350
+\c@mincompwidth=\count351
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -438,74 +460,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count348
-\c@savedafterword=\count349
-\c@annotator=\count350
-\c@savedannotator=\count351
-\c@author=\count352
-\c@savedauthor=\count353
-\c@bookauthor=\count354
-\c@savedbookauthor=\count355
-\c@commentator=\count356
-\c@savedcommentator=\count357
-\c@editor=\count358
-\c@savededitor=\count359
-\c@editora=\count360
-\c@savededitora=\count361
-\c@editorb=\count362
-\c@savededitorb=\count363
-\c@editorc=\count364
-\c@savededitorc=\count365
-\c@foreword=\count366
-\c@savedforeword=\count367
-\c@holder=\count368
-\c@savedholder=\count369
-\c@introduction=\count370
-\c@savedintroduction=\count371
-\c@namea=\count372
-\c@savednamea=\count373
-\c@nameb=\count374
-\c@savednameb=\count375
-\c@namec=\count376
-\c@savednamec=\count377
-\c@translator=\count378
-\c@savedtranslator=\count379
-\c@shortauthor=\count380
-\c@savedshortauthor=\count381
-\c@shorteditor=\count382
-\c@savedshorteditor=\count383
-\c@labelname=\count384
-\c@savedlabelname=\count385
-\c@institution=\count386
-\c@savedinstitution=\count387
-\c@lista=\count388
-\c@savedlista=\count389
-\c@listb=\count390
-\c@savedlistb=\count391
-\c@listc=\count392
-\c@savedlistc=\count393
-\c@listd=\count394
-\c@savedlistd=\count395
-\c@liste=\count396
-\c@savedliste=\count397
-\c@listf=\count398
-\c@savedlistf=\count399
-\c@location=\count400
-\c@savedlocation=\count401
-\c@organization=\count402
-\c@savedorganization=\count403
-\c@origlocation=\count404
-\c@savedoriglocation=\count405
-\c@origpublisher=\count406
-\c@savedorigpublisher=\count407
-\c@publisher=\count408
-\c@savedpublisher=\count409
-\c@language=\count410
-\c@savedlanguage=\count411
-\c@origlanguage=\count412
-\c@savedoriglanguage=\count413
-\c@pageref=\count414
-\c@savedpageref=\count415
+\c@afterword=\count352
+\c@savedafterword=\count353
+\c@annotator=\count354
+\c@savedannotator=\count355
+\c@author=\count356
+\c@savedauthor=\count357
+\c@bookauthor=\count358
+\c@savedbookauthor=\count359
+\c@commentator=\count360
+\c@savedcommentator=\count361
+\c@editor=\count362
+\c@savededitor=\count363
+\c@editora=\count364
+\c@savededitora=\count365
+\c@editorb=\count366
+\c@savededitorb=\count367
+\c@editorc=\count368
+\c@savededitorc=\count369
+\c@foreword=\count370
+\c@savedforeword=\count371
+\c@holder=\count372
+\c@savedholder=\count373
+\c@introduction=\count374
+\c@savedintroduction=\count375
+\c@namea=\count376
+\c@savednamea=\count377
+\c@nameb=\count378
+\c@savednameb=\count379
+\c@namec=\count380
+\c@savednamec=\count381
+\c@translator=\count382
+\c@savedtranslator=\count383
+\c@shortauthor=\count384
+\c@savedshortauthor=\count385
+\c@shorteditor=\count386
+\c@savedshorteditor=\count387
+\c@labelname=\count388
+\c@savedlabelname=\count389
+\c@institution=\count390
+\c@savedinstitution=\count391
+\c@lista=\count392
+\c@savedlista=\count393
+\c@listb=\count394
+\c@savedlistb=\count395
+\c@listc=\count396
+\c@savedlistc=\count397
+\c@listd=\count398
+\c@savedlistd=\count399
+\c@liste=\count400
+\c@savedliste=\count401
+\c@listf=\count402
+\c@savedlistf=\count403
+\c@location=\count404
+\c@savedlocation=\count405
+\c@organization=\count406
+\c@savedorganization=\count407
+\c@origlocation=\count408
+\c@savedoriglocation=\count409
+\c@origpublisher=\count410
+\c@savedorigpublisher=\count411
+\c@publisher=\count412
+\c@savedpublisher=\count413
+\c@language=\count414
+\c@savedlanguage=\count415
+\c@origlanguage=\count416
+\c@savedoriglanguage=\count417
+\c@pageref=\count418
+\c@savedpageref=\count419
 \shorthandwidth=\skip64
 \shortjournalwidth=\skip65
 \shortserieswidth=\skip66
@@ -529,19 +551,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count416
-\c@textcitetotal=\count417
-\c@textcitemaxnames=\count418
-\c@biburlbigbreakpenalty=\count419
-\c@biburlbreakpenalty=\count420
-\c@biburlnumpenalty=\count421
-\c@biburlucpenalty=\count422
-\c@biburllcpenalty=\count423
+\c@textcitecount=\count420
+\c@textcitetotal=\count421
+\c@textcitemaxnames=\count422
+\c@biburlbigbreakpenalty=\count423
+\c@biburlbreakpenalty=\count424
+\c@biburlnumpenalty=\count425
+\c@biburlucpenalty=\count426
+\c@biburllcpenalty=\count427
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count424
+\c@smartand=\count428
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -559,8 +581,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count425
-\c@bbx:relatedtotal=\count426
+\c@bbx:relatedcount=\count429
+\c@bbx:relatedtotal=\count430
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -570,10 +592,10 @@ Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count427
-\c@cbx@tempcntb=\count428
-\c@cbx@tempcntc=\count429
-\c@cbx@tempcntd=\count430
+\c@cbx@tempcnta=\count431
+\c@cbx@tempcntb=\count432
+\c@cbx@tempcntc=\count433
+\c@cbx@tempcntd=\count434
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -601,7 +623,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2023-11-09 L3 programming layer (loader) 
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count431
+\l__color_backend_stack_int=\count435
 \l__pdf_internal_box=\box68
 ))
 Package biblatex Info: ... and expl3
@@ -624,37 +646,38 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip85
 \f@nch@O@orf=\skip86
 )
-\@quotelevel=\count432
-\@quotereset=\count433
+\@quotelevel=\count436
+\@quotereset=\count437
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
- (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+
+(C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count434
-\scratchdimen=\dimen265
+\scratchcounter=\count438
+\scratchdimen=\dimen273
 \scratchbox=\box69
-\nofMPsegments=\count435
-\nofMParguments=\count436
+\nofMPsegments=\count439
+\nofMParguments=\count440
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count437
-\MPscratchDim=\dimen266
-\MPnumerator=\count438
-\makeMPintoPDFobject=\count439
+\MPscratchCnt=\count441
+\MPscratchDim=\dimen274
+\MPnumerator=\count442
+\makeMPintoPDFobject=\count443
 \everyMPtoPDFconversion=\toks41
 ) (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -670,6 +693,9 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
@@ -694,15 +720,15 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                - online entry 'gc_cost_axion' (project_formulation/bib.bib): Invalid format '2022-5-6' of date field 'date' - ignoring.
 
 )
-Package biblatex Info: Reference section=0 on input line 40.
-Package biblatex Info: Reference segment=0 on input line 40.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
 <./images/sdulogo.png, id=4, 339.51843pt x 180.675pt>
 File: ./images/sdulogo.png Graphic file (type png)
 <use ./images/sdulogo.png>
-Package pdftex.def Info: ./images/sdulogo.png  used on input line 41.
+Package pdftex.def Info: ./images/sdulogo.png  used on input line 44.
 (pdftex.def)             Requested size: 137.9979pt x 73.43486pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
@@ -720,98 +746,120 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 <project_formulation/project_formulation.pdf, id=24, 614.295pt x 794.97pt>
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf>
-Package pdftex.def Info: project_formulation/project_formulation.pdf  used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf  used on input line 83.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf>
-Package pdftex.def Info: project_formulation/project_formulation.pdf  used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf  used on input line 83.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <project_formulation/project_formulation.pdf, id=27, page=1, 614.295pt x 794.97pt>
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 1>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 83.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 1>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 1>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 1>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 1>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page1 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [4 <./project_formulation/project_formulation.pdf>]
 <project_formulation/project_formulation.pdf, id=62, page=2, 614.295pt x 794.97pt>
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 2>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page2 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page2 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 2>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page2 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page2 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 2>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page2 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page2 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [5 <./project_formulation/project_formulation.pdf>]
 <project_formulation/project_formulation.pdf, id=71, page=3, 614.295pt x 794.97pt>
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 3>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page3 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page3 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 3>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page3 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page3 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 3>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page3 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page3 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [6 <./project_formulation/project_formulation.pdf>]
 <project_formulation/project_formulation.pdf, id=87, page=4, 614.295pt x 794.97pt>
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 4>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page4 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page4 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 4>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page4 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page4 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: project_formulation/project_formulation.pdf Graphic file (type pdf)
 <use project_formulation/project_formulation.pdf, page 4>
-Package pdftex.def Info: project_formulation/project_formulation.pdf , page4 used on input line 80.
+Package pdftex.def Info: project_formulation/project_formulation.pdf , page4 used on input line 83.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [7 <./project_formulation/project_formulation.pdf>]
 <./images/pvc_applications.jpg, id=104, 893.3375pt x 602.25pt>
 File: ./images/pvc_applications.jpg Graphic file (type jpg)
 <use ./images/pvc_applications.jpg>
-Package pdftex.def Info: ./images/pvc_applications.jpg  used on input line 94.
+Package pdftex.def Info: ./images/pvc_applications.jpg  used on input line 97.
 (pdftex.def)             Requested size: 241.49895pt x 162.80264pt.
  [8 <./images/pvc_applications.jpg>]
 <./images/glc_illustration.png, id=108, 660.4675pt x 339.2675pt>
 File: ./images/glc_illustration.png Graphic file (type png)
 <use ./images/glc_illustration.png>
-Package pdftex.def Info: ./images/glc_illustration.png  used on input line 119.
+Package pdftex.def Info: ./images/glc_illustration.png  used on input line 122.
 (pdftex.def)             Requested size: 310.4979pt x 159.50233pt.
- [9] [10 <./images/glc_illustration.png>] [11] [12] [13]
-Overfull \hbox (7.34206pt too wide) in paragraph at lines 155--155
+ [9] [10 <./images/glc_illustration.png>]
+<./images/refractive_index.png, id=119, 804.00375pt x 1204.5pt>
+File: ./images/refractive_index.png Graphic file (type png)
+<use ./images/refractive_index.png>
+Package pdftex.def Info: ./images/refractive_index.png  used on input line 151.
+(pdftex.def)             Requested size: 172.5pt x 258.41107pt.
+ [11] [12 <./images/refractive_index.png>]
+<./images/shimadzu_heating.jpg, id=128, 2075.755pt x 1556.81625pt>
+File: ./images/shimadzu_heating.jpg Graphic file (type jpg)
+<use ./images/shimadzu_heating.jpg>
+Package pdftex.def Info: ./images/shimadzu_heating.jpg  used on input line 172.
+(pdftex.def)             Requested size: 165.59853pt x 124.19151pt.
+<./images/shimadzu_ready.jpg, id=129, 1807.75375pt x 1355.0625pt>
+File: ./images/shimadzu_ready.jpg Graphic file (type jpg)
+<use ./images/shimadzu_ready.jpg>
+Package pdftex.def Info: ./images/shimadzu_ready.jpg  used on input line 179.
+(pdftex.def)             Requested size: 165.59853pt x 124.1214pt.
+ [13 <./images/shimadzu_heating.jpg> <./images/shimadzu_ready.jpg>] [14] [15] [16]
+Overfull \hbox (7.34206pt too wide) in paragraph at lines 206--206
 \OT1/cmr/m/n/10 002029407801101201$. eprint: $https : / / doi . org / 10 . 1177 / 002029407801101201$.
  []
 
 
-Overfull \hbox (7.34206pt too wide) in paragraph at lines 155--155
+Overfull \hbox (7.34206pt too wide) in paragraph at lines 206--206
 \OT1/cmr/m/n/10 036985646300200801$. eprint: $https : / / doi . org / 10 . 1177 / 036985646300200801$.
  []
 
-[14] [15] (main.aux)
+[17]
+Overfull \hbox (15.80634pt too wide) in paragraph at lines 206--206
+\OT1/cmr/m/n/10 Browse[]Laboratory[]Analytics / Refractive[]index / de^^Lnition[]and[]measurement .
+ []
+
+[18] [19] (main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -821,17 +869,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21879 strings out of 474587
- 445145 string characters out of 5745702
+ 23364 strings out of 474587
+ 474704 string characters out of 5745702
  1937558 words of memory out of 5000000
- 43724 multiletter control sequences out of 15000+600000
+ 45201 multiletter control sequences out of 15000+600000
  565372 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,87p,2068b,1302s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (15 pages, 364511 bytes).
+ 84i,17n,87p,2239b,1302s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (19 pages, 3033601 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
+ 203 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

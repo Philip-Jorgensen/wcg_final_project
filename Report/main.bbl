@@ -33,8 +33,8 @@
       \strng{authorbibnamehash}{6411b98ecee3940e29464919a817080c}
       \strng{authornamehash}{6411b98ecee3940e29464919a817080c}
       \strng{authorfullhash}{6411b98ecee3940e29464919a817080c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Age of Plastic: From Parkesine to pollution}
@@ -64,8 +64,8 @@
       \strng{authorbibnamehash}{acfc4479ff0ef4e71b942f2c049869c7}
       \strng{authornamehash}{acfc4479ff0ef4e71b942f2c049869c7}
       \strng{authorfullhash}{acfc4479ff0ef4e71b942f2c049869c7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ueber einige Vinylverbindungen}
@@ -105,8 +105,8 @@
       \strng{authorbibnamehash}{3253401ca907efec5ddfb7ca1bea80a8}
       \strng{authornamehash}{3253401ca907efec5ddfb7ca1bea80a8}
       \strng{authorfullhash}{3253401ca907efec5ddfb7ca1bea80a8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Macromolecular Science: Part A - Chemistry}
@@ -141,8 +141,8 @@
       \strng{authorbibnamehash}{8df88880d5bc387962d079a35a7d9753}
       \strng{authornamehash}{8df88880d5bc387962d079a35a7d9753}
       \strng{authorfullhash}{8df88880d5bc387962d079a35a7d9753}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is PVC Plastic? All Information About PVC Plastic}
@@ -171,8 +171,8 @@
       \strng{authorbibnamehash}{dbd65b8044d215f27deff05ab3a7ddc8}
       \strng{authornamehash}{dbd65b8044d215f27deff05ab3a7ddc8}
       \strng{authorfullhash}{dbd65b8044d215f27deff05ab3a7ddc8}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Vinyl Chloride}
@@ -440,8 +440,8 @@
       \strng{authorbibnamehash}{266ee82aa2a8488967a8389b3408d366}
       \strng{authornamehash}{266ee82aa2a8488967a8389b3408d366}
       \strng{authorfullhash}{266ee82aa2a8488967a8389b3408d366}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{How Much Does A Gas Chromatograph Cost?}
@@ -643,6 +643,36 @@
       \endverb
       \verb{url}
       \verb https://www.mt.com/dk/da/home/applications/Application_Browse_Laboratory_Analytics/Refractive_index/definition_and_measurement.html
+      \endverb
+    \endentry
+    \entry{cphnano_nanocuvette}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d003efcc21dab60d6caede42443bbef5}{%
+           family={cphnano},
+           familyi={c\bibinitperiod}}}%
+      }
+      \strng{namehash}{d003efcc21dab60d6caede42443bbef5}
+      \strng{fullhash}{d003efcc21dab60d6caede42443bbef5}
+      \strng{bibnamehash}{d003efcc21dab60d6caede42443bbef5}
+      \strng{authorbibnamehash}{d003efcc21dab60d6caede42443bbef5}
+      \strng{authornamehash}{d003efcc21dab60d6caede42443bbef5}
+      \strng{authorfullhash}{d003efcc21dab60d6caede42443bbef5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nanocuvette One}
+      \field{urlday}{1}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cphnano.com/nanocuvette-one
+      \endverb
+      \verb{url}
+      \verb https://cphnano.com/nanocuvette-one
       \endverb
     \endentry
   \enddatalist

@@ -154,6 +154,7 @@ class Data:
     moving_average_data: tuple = ()
     outliers_removed: bool = False
     vc_concentration: float = 0
+    vc_guess: float = 0
 
 ri_shift_formula = lambda ri : max(ri) - ri[0]
 
@@ -215,18 +216,6 @@ def analyze_test(project: Project, test_number: int, moving_average: bool = Fals
     result.vc_concentration = (float(vc_volume)*2)/float(di_volume)
     return result
 
-## Possibly not needed, just taking the values directly without calculating them first
-# def analyze_range(tests_list: list, project: Project, moving_average: bool, remove_outliers: bool) -> list:
-#     ri_shift_list = []
-#     vc_concentration_list = []
-
-#     for i in tests_list:
-#         item_data = analyze_test(project, i, moving_average, remove_outliers)
-#         ri_shift_list.append(item_data.ri_shift)
-#         vc_concentration_list.append(item_data.vc_concentration)
-
-#     return (vc_concentration_list, ri_shift_list)
-
 def database_fit(data: Data):
     database_file = '../../../../database.csv'
 
@@ -242,10 +231,6 @@ def database_fit(data: Data):
     # Best fit
     bestfit_coefficients = np.polyfit(ri_shift, vc_concentration, 2)
     bestfit_function = np.poly1d(bestfit_coefficients)
-
-
-    
-
 
 
 def plotting(data: Data):
@@ -268,31 +253,20 @@ def plotting(data: Data):
 
     return (axis, fig)
     
-def ri_shift_plot(ri_shift_data: tuple):
-    plt.plot(ri_shift_data[0], ri_shift_data[1])
-    plt.grid(True)
-
-    plt.xlabel("VC Concentration (ug/ml)")
-    plt.ylabel("RI Shift")
-
-    plt.show()
-
 def main():
     connection = Connection(API_KEY, f'https://api.spectroworks.com/prod/api/')
 
     project = connection.get_project('Vinyl chloride in water')
     project.get_items()
 
-    # refractive_index = analyze_test(
-    #     project, 
-    #     test_number = 13,
-    #     moving_average = True,
-    #     remove_outliers = True
-    #     )
+    refractive_index = analyze_test(
+        project, 
+        test_number = 13,
+        moving_average = True,
+        remove_outliers = True
+        )
     
-    ri_shift_data = analyze_range([9, 10], project, True, True)
-    ri_shift_plot(ri_shift_data)
-
+    plotting(refractive_index)
 
 # Only allow the program to be run directly, not as an import
 if __name__ == '__main__':

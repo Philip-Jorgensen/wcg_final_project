@@ -5,6 +5,11 @@
 \usepackage{pdfpages}
 \usepackage{tikz}
 
+\usepackage{markdown}
+
+\usepackage{minted}     % Syntax highlighted code
+\usepackage{xcolor}
+
 \usepackage{caption}
 \usepackage{subcaption}
 
@@ -102,11 +107,11 @@ PVC plastics are used in a lot of different areas like construction piping, pack
 People can be exposed to vinyl chloride in different ways, through inhalating contaminated air, contaminated water etc.
 If vinyl chloride contaminate a water supply to a household, it can contaminate the air in the household leading to the inhabitants being exposed to vinyl chloride. \cite{vc_cancer}
 One of the main dangers with exposure to vinyl chloride is the increased risk of cancer, and in particular liver cancer.\cite{vc_cancer}
-In addition according to \textit{"kemibrug.dk"}\footnote{A database for information regarding chemicals}, vinyl chloride can also affect the central nervous system with symptoms like headache, dizziness, nausea and a possibility of loss of conscioiusness, as well as the inhalation the chemical is also easily absorbed through the skin which can lead to similar effects as of those from inhilation.\cite{vc_kemibrug}
+In addition according to \textit{"kemibrug.dk"}\footnote{A database for information regarding chemicals}, vinyl chloride can also affect the central nervous system with symptoms like headache, dizziness, nausea and a possibility of loss of conscioiusness, as well as the inhalation the chemical is also easily absorbed through the skin which can lead to similar effects as of those from inhilation.\cite{vc_kemibrug}\\
 
 
 At the moment the primary way to analyze whether there is vinyl chloride present in a water sample is through gas chromatography.
-According to an article from F.J Santos and M.T Galceran some of the advantages of gas chromatography are that is has a very high selectivity and resolution, making it easier to detect even small quantities of vinyl chloride in the sample, in addition GC has a good accuracy and precision.\cite{SANTOS2002672}
+According to an article from F.J Santos and M.T Galceran some of the advantages of gas chromatography are that is has a very high selectivity and resolution, making it easier to detect even small quantities of vinyl chloride in the sample, in addition GC has a good accuracy and precision.\cite{SANTOS2002672}\\
 
 
 Gas chromatography is a physical process where a mixture of different substances are separated into their different parts.\cite{waters_1978_gc}
@@ -153,6 +158,8 @@ The angles, $i$ and $r$ are shown in figure \ref{fig:ri}.
     \label{fig:ri}
 \end{figure}
 
+When the vinyl chloride reacts with the enzyme Cytochrome P450, the refractive index of the solution changes with time as the components are reacting\cite{roana_vc_ri}.
+Thus the refractive index can be used to determine the concentration of the vinyl chloride in the solution, as a more affordable alternative to using gas chromatography.
 
 \subsection{The photonic cystals, a tool for measuring the refractive index}
 
@@ -160,6 +167,9 @@ The angles, $i$ and $r$ are shown in figure \ref{fig:ri}.
 \section{Building a database}
 \subsection{Measuring vinyl chloride in a sample}
 \subsubsection{General methodology}
+
+The methodology is derived from the methodology shown in the appendix \ref{appendix:protocol_vc}, with changes depending on the specific equipment and concentration values.\\
+
 During the measurement gathering process, there was a procedure that was followed for all the measurements, it was adapted slightly depending on what instrument the measurement was done on.
 Firstly the instrument was turned, and proceeding with the steps only when the instrument had heated up.
 With the Water Care Guard suitcase or with the Ocean Optics UV-650 UV-VIS\textsuperscript{TM}, the heat up wait was a fixed 15 minute wait, because those instruments did not have a heating status indicator telling when it was finished heating up.
@@ -184,11 +194,46 @@ On the other hand with the Shimadzu UV-1900\textsuperscript{TM}, there is a ligh
     \label{fig:shimadzu_status}
 \end{figure}
 
-After the instrument has heated up, a water reference measurement is then completed in the Spectroworks\textsuperscript{TM} software by Copenhagen Nanosystems
+After the instrument has heated up, a water reference measurement is then completed in the Spectroworks\textsuperscript{TM} software by Copenhagen Nanosystems (cphnano), with 2-3ml of DI water in the Nanocuvette\textsuperscript{TM} One.
+The steps after this is then to prepare the measurements of vinyl chloride and DI water.
 
-\subsubsection{Measuring using the Water Care Guard suitcase}
-\subsubsection{Measuring using the Shimadzu UV-1900 spectrophotometer}
-\subsection{Problems}
+\begin{enumerate}
+    \item 10 ml of DI water is added to a glass vial
+    \item Added the corresponding volume of vinyl chloride to get the desired concentration. (e.g. 25 $\mu l$ to get a concentration of $ 4 \mu l / ml $)
+    \item Then gently shaking the vinyl chloride and DI water solution for approximately 60 seconds.
+    \item Takeing the enzyme Cytochrome P450 out of the freezer and start a stopwatch, to prevent the enzyme from being out of the freezer for more than 15 minutes.
+    \item Weighed ~1.5-2mg of the enzyme.
+    \item Then added a proportional amount of DI water to enzyme, meaning 1.5 mg of enzyme would require 1.5 ml of DI water.
+    \item The enzyme and DI solution was then stirred gently for ~30 seconds, until there were no visible flakes of enzyme in the solution.
+    \item Using a molar concentration of vinyl chloride to enzyme of $1.29 \times 10^5$, which is derived from the procedure sheet shown in the appendix \ref{appendix:protocol_vc}. The concentration was multiplied by a factor of 1-10$\times$, depending on the results of the previous experiment.
+    \item When the enzyme had been added to the vinyl chloride solution, a stopwatch was started.
+    \item The solution was gently shaken for approximately 30 seconds.
+    \item 3 ml of this solution was then pipetted into a Nanocuvette\textsuperscript{TM} One.
+    \item The Nanocuvette\textsuperscript{TM} One was then transferred into the spectrophotometer, starting with the A-side measurement, without the photonic crystal, in figure \ref{fig:nanocuvette_sides} an illustration shows the Nanocuvette\textsuperscript{TM} and the two sides of it.\label{step:measurement_start}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{nanocuvette_one_sides.png}
+        \caption{A Nanocuvette\textsuperscript{TM} One from cphnano\cite{cphnano_nanocuvette}}
+        \label{fig:nanocuvette_sides}
+    \end{figure}
+
+    \item In the Spectroworks\textsuperscript{TM} software the water reference measurement done with DI water earlier, is selected.
+    \item The A-side measurement was then carried out, according to the steps provided by the Spectroworks\textsuperscript{TM} software.
+    \item The Nanocuvette\textsuperscript{TM} One was then turned around to the B-side and the measurement was carried out again.
+    \item The details for the measurement was then entered into Spectroworks\textsuperscript{TM}:\label{step:measurement_end}
+    \begin{itemize}
+        \item Measurement number
+        \item Current time (in minutes)
+        \item DI volume
+        \item Vinyl chloride volume
+        \item Enzyme mass
+    \end {itemize}
+    \item The steps \ref{step:measurement_start} to \ref{step:measurement_end} was then carried with an approximate time gab of 1-2 minutes, until 60 minutes had passed.
+\end{enumerate}
+
+\subsubsection{Measuring with Water Care Guard suitcase}
+\subsubsection{Measuring with Shimadzu UV-1900}
 \subsection{Data analysis}
 
 \newpage
@@ -206,5 +251,10 @@ After the instrument has heated up, a water reference measurement is then comple
 
 \section{Appendix}
 % Add the code here, and a flowchart version to describe the logic
+
+\subsection{spectroworks\_api\_interface.py}
+
+\subsection{Protocol how to prepare VC + Enzyme concentration in water based on molar ratio 1:6 and measure the RI}\label{appendix:protocol_vc}
+\includepdf[pages=-]{appendix/Protocol_for_working_enzyme_kinetics.pdf}
 
 \end{document}

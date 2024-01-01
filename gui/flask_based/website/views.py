@@ -2,7 +2,7 @@ import io
 from flask import Blueprint, render_template, redirect, Response, request
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
-from .spectroworks_api_interface import Connection, analyze_test, analyze_range, plotting, API_KEY
+from .spectroworks_api_interface import Connection, analyze_test, plotting, API_KEY
 
 views = Blueprint("views", __name__)
 

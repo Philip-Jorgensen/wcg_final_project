@@ -172,52 +172,61 @@ def analyze_test(project: Project, test_number: int, moving_average: bool = Fals
 
     di_volume = float(re.findall(r'\d+\.*\d*ml',solvent)[0][:-2]) # ml
     vc_volume = float(re.findall(r'\d+\.*\d*ul', analyte)[0][:-2]) # ul
+
+    if remove_outliers:
+        std = 2*np.std(refractive_index)
+        mean = np.mean(refractive_index)
+
+        ri_no_outliers = []
+        time_no_outliers = []
+
+        for i, item in enumerate(refractive_index):
+            if item < mean + std or item > mean - std:
+                ri_no_outliers.append(item)
+                time_no_outliers.append(time[i])
+        
+        result = Data(
+            time = time_no_outliers,
+            refractive_index = ri_no_outliers,
+            ri_shift = ri_shift_formula(ri_no_outliers),
+            test_number=test_number,
+            outliers_removed = True
+        )
+
+    else:
+        result = Data(
+            time = time,
+            refractive_index = refractive_index,
+            ri_shift = ri_shift_formula(refractive_index),
+            test_number=test_number,
+        )
+
     
     if moving_average:
         window_size = 3
 
         ri_moving_average = []
         i = 0
-        while i < len(refractive_index) - window_size + 1:
-            window = refractive_index[i : i + window_size]
+        while i < len(result.refractive_index) - window_size + 1:
+            window = result.refractive_index[i : i + window_size]
             window_average = sum(window) / window_size
 
             ri_moving_average.append(window_average)
 
             i += 1
 
-        result = Data(
-            time = time,
-            refractive_index= refractive_index,
-            ri_shift=ri_shift_formula(ri_moving_average),
-            moving_average = True,
-            moving_average_data=(time[1:-1], ri_moving_average),
-            test_number = test_number
-        ) 
-    else:
-        result = Data(time, refractive_index, ri_shift_formula(refractive_index), test_number=test_number)
-
-    if remove_outliers:
-        std = 2*np.std(result.refractive_index)
-        mean = np.mean(result.refractive_index)
-
-        result.outliers_removed = True
-
-        ri_no_outliers = []
-        time_no_outliers = []
-
-        for i, item in enumerate(result.refractive_index):
-            if item < mean + std or item > mean - std:
-                ri_no_outliers.append(item)
-                time_no_outliers.append(result.time[i])
-        
-        result.refractive_index = ri_no_outliers
+        result.moving_average = True,
+        result.moving_average_data=(result.time[1:-1], ri_moving_average),
+        result.test_number = test_number
 
     result.vc_concentration = (float(vc_volume)*2)/float(di_volume)
+    result.vc_guess = database_fit(result)
+    print(result.vc_guess)
+    print(result.ri_shift)
     return result
 
-def database_fit(data: Data):
-    database_file = '../../../../database.csv'
+def database_fit(data: Data) -> tuple:
+    database_file = "C:\\Users\\phili\\OneDrive - Syddansk Universitet\\SDU\\7 Semester (E23) Thesis\\wcg_final_project\\database.csv"
 
     database = pd.read_csv(database_file)
 
@@ -231,6 +240,10 @@ def database_fit(data: Data):
     # Best fit
     bestfit_coefficients = np.polyfit(ri_shift, vc_concentration, 2)
     bestfit_function = np.poly1d(bestfit_coefficients)
+
+    data_ri = data.ri_shift
+
+    return (bestfit_function - data_ri).roots
 
 
 def plotting(data: Data):

@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}project}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{project\PYGZus{}name}\PYG{p}{:} \PYG{n+nb}{str} \PYG{o}{=} \PYG{k+kc}{None}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{Project}\PYG{p}{:}
+    \PYG{c+c1}{\PYGZsh{} load projects}
+    \PYG{c+c1}{\PYGZsh{}\PYGZsh{} If you haven\PYGZsq{}t loaded the projects earlier}
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{projects} \PYG{o+ow}{is} \PYG{k+kc}{None}\PYG{p}{:}
+        \PYG{c+c1}{\PYGZsh{} Get response}
+        \PYG{n}{res} \PYG{o}{=} \PYG{n}{requests}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{url} \PYG{o}{+} \PYG{l+s+s1}{\PYGZsq{}list\PYGZus{}projects\PYGZsq{}}\PYG{p}{,}      \PYG{c+c1}{\PYGZsh{} Determine request}
+            \PYG{n}{params}\PYG{o}{=}\PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}api\PYGZus{}key\PYGZsq{}}\PYG{p}{:} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{api\PYGZus{}key}\PYG{p}{\PYGZcb{}} \PYG{c+c1}{\PYGZsh{} Add API key}
+        \PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{res}\PYG{o}{.}\PYG{n}{status\PYGZus{}code} \PYG{o}{!=} \PYG{l+m+mi}{200}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Response is not OK (200)}
+            \PYG{c+c1}{\PYGZsh{} Throw an error, saying the connection is not successful.}
+            \PYG{k}{raise} \PYG{n+ne}{ConnectionError}\PYG{p}{(}\PYG{n}{json}\PYG{o}{.}\PYG{n}{loads}\PYG{p}{(}\PYG{n}{res}\PYG{o}{.}\PYG{n}{text}\PYG{p}{)[}\PYG{l+s+s1}{\PYGZsq{}message\PYGZsq{}}\PYG{p}{])}
+        \PYG{n}{projects} \PYG{o}{=} \PYG{n}{json}\PYG{o}{.}\PYG{n}{loads}\PYG{p}{(}\PYG{n}{res}\PYG{o}{.}\PYG{n}{text}\PYG{p}{)[}\PYG{l+s+s1}{\PYGZsq{}message\PYGZsq{}}\PYG{p}{][}\PYG{l+s+s1}{\PYGZsq{}items\PYGZsq{}}\PYG{p}{]}
+        \PYG{c+c1}{\PYGZsh{} Loop through the projects and filter based on our parameters}
+        \PYG{k}{for} \PYG{n}{i}\PYG{p}{,} \PYG{n}{project} \PYG{o+ow}{in} \PYG{n+nb}{enumerate}\PYG{p}{(}\PYG{n}{projects}\PYG{p}{):}
+            \PYG{k}{if} \PYG{n}{project}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}project\PYGZus{}name\PYGZsq{}}\PYG{p}{]} \PYG{o}{==} \PYG{n}{project\PYGZus{}name}\PYG{p}{:}
+                \PYG{k}{return} \PYG{n}{Project}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{projects}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}
+\end{Verbatim}

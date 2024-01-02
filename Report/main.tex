@@ -7,8 +7,13 @@
 
 \usepackage{markdown}
 
-\usepackage{minted}     % Syntax highlighted code
+\usepackage[newfloat]{minted}     % Syntax highlighted code
 \usepackage{xcolor}
+
+\newenvironment{code}{\captionsetup{type=listing}}{}
+\SetupFloatingEnvironment{listing}{name=Code}
+
+\usepackage[hidelinks]{hyperref}
 
 \usepackage{caption}
 \usepackage{subcaption}
@@ -32,7 +37,7 @@
 \fancyhead[L]{Philip Oliver Mejer Jørgensen}
 
 % Configuring title page
-\title{\textbf{Detection of Vinyl Chloride in environmental water samples}~\\[5mm]
+\title{\textbf{Detection of Vinyl Chloride in Environmental Water Samples}~\\[5mm]
 \large{By: Philip Oliver Mejer Jørgensen}~\\[5mm]
 \includegraphics[width=0.4\textwidth]{sdulogo.png}}
 \author{
@@ -131,7 +136,7 @@ The process is illustrated in figure \ref{fig:glc_illustration}.
 
 A gas chromatograph is an expensive piece of laboratory equipment\cite{gc_cost_axion}, in addition it can take up to two weeks to get a sample analyzed in a laboratory\cite{water_analysis_cwt}.
 This is why there is a need to be able to get a faster on-site detection of vinyl chloride concentration in water samples.
-This is what the company Water Care Guard\footnote{https://www.watercareguard.com/} is working towards, with their suitcase laboratory.
+This is what the company Water Care Guard\footnote{\url{https://www.watercareguard.com/}} is working towards, with their suitcase laboratory.
 Instead of using GC for detecting the vinyl chloride, it is using an enzymatic reaction between the vinyl chloride and an enzyme (Cytochromes P450), this enzymatic reaction changes the refractive index of the solution over time where the shift in the refractive index from the starting point is related to the concentration of the vinyl chloride in the solution.\cite{roana_vc_ri}\cite{Ghanayem2007-nb}.
 
 \newpage
@@ -172,8 +177,8 @@ The methodology is derived from the methodology shown in the appendix \ref{appen
 
 During the measurement gathering process, there was a procedure that was followed for all the measurements, it was adapted slightly depending on what instrument the measurement was done on.
 Firstly the instrument was turned, and proceeding with the steps only when the instrument had heated up.
-With the Water Care Guard suitcase or with the Ocean Optics UV-650 UV-VIS\textsuperscript{TM}, the heat up wait was a fixed 15 minute wait, because those instruments did not have a heating status indicator telling when it was finished heating up.
-On the other hand with the Shimadzu UV-1900\textsuperscript{TM}, there is a light on the front indicating the status, if it is yellow it is still heating and green when it is ready, this is indicated in figure \ref{fig:shimadzu_status}.
+With the Water Care Guard suitcase or with the Ocean Optics UV-650 UV-VIS\texttrademark\, the heat up wait was a fixed 15 minute wait, because those instruments did not have a heating status indicator telling when it was finished heating up.
+On the other hand with the Shimadzu UV-1900\texttrademark\, there is a light on the front indicating the status, if it is yellow it is still heating and green when it is ready, this is indicated in figure \ref{fig:shimadzu_status}.
 
 \begin{figure}[H]
     \centering
@@ -194,7 +199,7 @@ On the other hand with the Shimadzu UV-1900\textsuperscript{TM}, there is a ligh
     \label{fig:shimadzu_status}
 \end{figure}
 
-After the instrument has heated up, a water reference measurement is then completed in the Spectroworks\textsuperscript{TM} software by Copenhagen Nanosystems (cphnano), with 2-3ml of DI water in the Nanocuvette\textsuperscript{TM} One.
+After the instrument has heated up, a water reference measurement is then completed in the SpectroWorks\texttrademark\ software by Copenhagen Nanosystems (cphnano), with 2-3ml of DI water in the Nanocuvette\textsuperscript{TM} One.
 The steps after this is then to prepare the measurements of vinyl chloride and DI water.
 
 \begin{enumerate}
@@ -208,20 +213,20 @@ The steps after this is then to prepare the measurements of vinyl chloride and D
     \item Using a molar concentration of vinyl chloride to enzyme of $1.29 \times 10^5$, which is derived from the procedure sheet shown in the appendix \ref{appendix:protocol_vc}. The concentration was multiplied by a factor of 1-10$\times$, depending on the results of the previous experiment.
     \item When the enzyme had been added to the vinyl chloride solution, a stopwatch was started.
     \item The solution was gently shaken for approximately 30 seconds.
-    \item 3 ml of this solution was then pipetted into a Nanocuvette\textsuperscript{TM} One.
-    \item The Nanocuvette\textsuperscript{TM} One was then transferred into the spectrophotometer, starting with the A-side measurement, without the photonic crystal, in figure \ref{fig:nanocuvette_sides} an illustration shows the Nanocuvette\textsuperscript{TM} and the two sides of it.\label{step:measurement_start}
+    \item 3 ml of this solution was then pipetted into a Nanocuvette\texttrademark\ One.
+    \item The Nanocuvette\texttrademark\ One was then transferred into the spectrophotometer, starting with the A-side measurement, without the photonic crystal, in figure \ref{fig:nanocuvette_sides} an illustration shows the Nanocuvette\textsuperscript{TM} and the two sides of it.\label{step:measurement_start}
 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.5\linewidth]{nanocuvette_one_sides.png}
-        \caption{A Nanocuvette\textsuperscript{TM} One from cphnano\cite{cphnano_nanocuvette}}
+        \caption{A Nanocuvette\texttrademark\ One from cphnano\cite{cphnano_nanocuvette}}
         \label{fig:nanocuvette_sides}
     \end{figure}
 
-    \item In the Spectroworks\textsuperscript{TM} software the water reference measurement done with DI water earlier, is selected.
-    \item The A-side measurement was then carried out, according to the steps provided by the Spectroworks\textsuperscript{TM} software.
-    \item The Nanocuvette\textsuperscript{TM} One was then turned around to the B-side and the measurement was carried out again.
-    \item The details for the measurement was then entered into Spectroworks\textsuperscript{TM}:\label{step:measurement_end}
+    \item In the SpectroWorks\texttrademark\ software the water reference measurement done with DI water earlier, is selected.
+    \item The A-side measurement was then carried out, according to the steps provided by the SpectroWorks\texttrademark\ software.
+    \item The Nanocuvette\texttrademark\ One was then turned around to the B-side and the measurement was carried out again.
+    \item The details for the measurement was then entered into SpectroWorks\texttrademark\:\label{step:measurement_end}
     \begin{itemize}
         \item Measurement number
         \item Current time (in minutes)
@@ -233,13 +238,115 @@ The steps after this is then to prepare the measurements of vinyl chloride and D
 \end{enumerate}
 
 \subsubsection{Measuring with Water Care Guard suitcase}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wcg_suitcase.jpg}
+    \caption{The Water Care Guard suitcase in the chemistry lab at SDU}
+    \label{fig:wcg_suitcase}
+\end{figure}
+
 \subsubsection{Measuring with Shimadzu UV-1900}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth, angle=270]{shimadzu_uv1900.jpg}
+    \caption{Shimadzu UV-1900 spectrophotometer in the photonics lab at SDU}
+    \label{fig:shimadzuuv1900}
+\end{figure}
+
 \subsection{Data analysis}
+\subsection{Problems}
 
 \newpage
 \section{User interface}
+The goal for the user interface was to have a simple solution for the user to be able to get the results of their measurements, without needing to understand the full program of SpectroWorks\texttrademark\ which is the backend for the handling the data, and taking the measurements.\\
+SpectroWorks\texttrademark\ by cphnano is made to be able to handle a variety of measurement types and goals, like standard UV-Vis measurements, protein and enzyme concentrations, refractive index, particle size distributions etc.\cite{spectroworks}.
+This is why the idea behind the user interface was to make it a simplified interface with SpectroWorks\texttrademark\, that was just a simple button to start the measurement and a display of the results.
+
 \subsection{API Interface}
+The API interface is written based on the python library for the API interface for SpectroWorks\texttrademark\ written by cphnano\cite{spectroworks_github}, it is written to be tailored to the needs of this project in an attempt to improve the performance of the system.
+A full flowchart explaining how the program works with both the graphical user interface and the API interface is shown in the appendix \ref{appendix:api_interface} and in figure \ref{fig:flowchart_api}.\\
+
+The first thing that the API inteface does is to establish a connection with the SpectroWorks\texttrademark\ API, an API key has been made in the SpectroWorks\texttrademark\ software that is being used to ensure that we are allowed to access the data.
+In SpectroWorks\texttrademark\ we are able to define what projects the specific API key has access to, although in the API interface written, we have the option of choosing what project we are focusing on.\\
+
+When the connection parameters has been set we are going to get a list of the projects available using the the API key, we then filter those projects and use only the ones we are interested in.
+The get\_project method of the Connection class shown in code sample \ref{code:get_project}, uses the connection parameters to send a request to the SpectroWorks\texttrademark\ API, requesting a list of all the projects, they are then filtered based on if they are a part of the requested projects, it then returns the a Project class.
+
+\begin{code}
+\begin{minted}{python}
+def get_project(self, project_name: str = None) -> Project:
+    # load projects
+    ## If you haven't loaded the projects earlier
+    if self.projects is None:
+        # Get response
+        res = requests.get(
+            self.url + 'list_projects',      # Determine request
+            params={'api_key': self.api_key} # Add API key
+        )
+        if res.status_code != 200: # Response is not OK (200)
+            # Throw an error, saying the connection is not successful.
+            raise ConnectionError(json.loads(res.text)['message'])
+        projects = json.loads(res.text)['message']['items']
+        # Loop through the projects and filter based on our parameters
+        for i, project in enumerate(projects):
+            if project['project_name'] == project_name:
+                return Project(self, projects[i])
+\end{minted}
+\captionof{listing}{get\_project method in the Connection class, written in Python.}
+\label{code:get_project}
+\end{code}
+\medskip
+In the projects class we can then get the properties of the Project, as well as getting the items associated with the given project.
+An item is every individual measurement stored in SpectroWorks\texttrademark.
+An example of an item as it is stored in SpectroWorks\texttrademark\ is shown below in figure \ref{fig:spectroworks_item}, in the image you can see the inputted sample attributes on the left side and the results of the measurements on the right side.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{item_spectroworks.png}
+    \caption{An item as shown in the SpectroWorks\texttrademark\ interface\cite{spectroworks_app}}
+    \label{fig:spectroworks_item}
+\end{figure}
+
+Custom parameters for an item has been written into the sample parameters, like the volume of DI water, vinyl chloride, and the amount of enzyme in the solution, in addition the number for the measurement is written in with a T prefixed e.g. \textit{T20}, which indicates which measurements are from the same line of measurements, so that we can treat all the measurements with the same T number the same.
+Lastly in the Sample name the time of the specific measurement is written as well, all these values can be extracted by the api interface program, the program uses a regular expression to extract the values.
+
+\begin{code}
+\begin{minted}{python}
+## Test number
+test_number = re.findall(r'T\d+', self.sample_name)
+self.test_number = int(test_number[0][1:]) if test_number else None
+
+## Measurement number
+measurement_time = re.findall(r'\d+\.?\d*min', self.sample_name)
+self.measurement_time = float(measurement_time[0][:-3]) if measurement_time else None
+\end{minted}
+\captionof{listing}{Example of getting the custom parameters using a regular expression from the sample attributes of the item.}
+\label{code:custom_parameters}
+\end{code}
+\medskip
+
+Using the \mintinline{python}{Project} class and \mintinline{python}{Item} class the program can get all the values it needs to be able to analyze the data.\\
+The code for the SpectroWorks\texttrademark\ API interface and the website can be found on my github page (\url{https://github.com/Philip-Jorgensen/wcg_final_project})
+
 \subsection{Graphical User Interface}
+The graphical user interface is written as a locally hosted website, due to it being more accessible and easier to work with as the user.
+As opposed to an application, a website can be accessed from any type of device assuming the device has access to the local network of the computer hosting the website.
+This could mean how a tablet in the suitcase could be used as the interface for operating the Water Care Guard suitcase, an example for this is shown in figure \ref{fig:wcg_with_ipad} or the interface could be accessed from the users phone or computer.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{wcg_suitcase_with_ipad.png}
+    \caption{Illustration of the Water Care Guard suitcase with an iPad with the Graphical user interface.}
+    \label{fig:wcg_with_ipad}
+\end{figure}
+
+\medskip
+
+The website has been written with Python as the backend with the python framework Flask\footnote{\url{https://github.com/pallets/flask/}}, in addition the front end of the website is written in HTML and CSS.
+The code for the graphical user interface can be found on my github (\url{https://github.com/Philip-Jorgensen/wcg_final_project/tree/main/gui/flask_based}).
+
 
 \newpage
 \section{Conclusion}
@@ -247,12 +354,18 @@ The steps after this is then to prepare the measurements of vinyl chloride and D
 \newpage
 
 \renewcommand*{\UrlFont}{\rmfamily}
-\printbibliography
+\printbibliography[heading=bibintoc, title={Bibliography}]
 
 \section{Appendix}
 % Add the code here, and a flowchart version to describe the logic
 
-\subsection{spectroworks\_api\_interface.py}
+\subsection{spectroworks\_api\_interface.py}\label{appendix:api_interface}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{flowchart_api_white.png}
+    \caption{The flowchart for the website and SpectroWorks\texttrademark\ api interface}
+    \label{fig:flowchart_api}
+\end{figure}
 
 \subsection{Protocol how to prepare VC + Enzyme concentration in water based on molar ratio 1:6 and measure the RI}\label{appendix:protocol_vc}
 \includepdf[pages=-]{appendix/Protocol_for_working_enzyme_kinetics.pdf}

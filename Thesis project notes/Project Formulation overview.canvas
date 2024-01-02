@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"8ec43dff7bd78659","type":"file","file":"Thesis project/Project Formulation Brainstorm.md","x":-420,"y":-80,"width":400,"height":400},
+		{"id":"69b3eb613e3a73aa","type":"text","text":"## Project Formulation","x":-330,"y":-360,"width":220,"height":80},
+		{"id":"22684f860f41256e","type":"file","file":"Thesis project/Notes from reading 'Problem formulation desc.pdf'.md","x":60,"y":-80,"width":400,"height":400},
+		{"id":"f85f0e9c5278e976","type":"file","file":"Thesis project/Project Description – B.Eng. Thesis.md","x":60,"y":-640,"width":400,"height":400},
+		{"id":"68ab51681aafa3f8","type":"text","text":"## Writing","x":-580,"y":400,"width":250,"height":60,"color":"5"},
+		{"id":"7c6335724a55fcaf","type":"file","file":"Thesis project/Project formulation - Writing.md","x":-420,"y":520,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"e09acac3390351e5","fromNode":"69b3eb613e3a73aa","fromSide":"bottom","toNode":"8ec43dff7bd78659","toSide":"top"},
+		{"id":"7d67528ddeb077a2","fromNode":"69b3eb613e3a73aa","fromSide":"bottom","toNode":"22684f860f41256e","toSide":"top"}
+	]
+}
